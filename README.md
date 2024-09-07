@@ -67,4 +67,7 @@ classes in REAPER, even if the interval numbers differ due to enharmonic equival
   0 "Chromatic"         122334556677 
   ```
 
+## Reaper Forum Thread
+https://forum.cockos.com/showthread.php?p=2807156#post2807156
+
 ---
