@@ -4,6 +4,20 @@ Olivier Messiaen Modes of limited transposition in REAPER.
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/nCXxV7eDEPc/0.jpg)](https://www.youtube.com/watch?v=nCXxV7eDEPc)
 
 
+Here's a markdown table reflecting Olivier Messiaen's Modes of Limited Transposition:
+
+| Mode | Intervals in Semitones | Number of Notes | Number of Transpositions | Number of Modes (Shifts) | Description |
+|------|------------------------|-----------------|--------------------------|--------------------------|-------------|
+| 1    | 2, 2, 2, 2, 2, 2       | 6               | 2                        | 1                        | Whole-tone scale. Divided into six groups of two notes each. |
+| 2    | 1, 2, 1, 2, 1, 2, 1, 2 | 8               | 3                        | 2                        | Octatonic, diminished, whole-half, or half-whole scale. Divided into four groups of three notes each. |
+| 3    | 2, 1, 1, 2, 1, 1, 2, 1, 1 | 9            | 4                        | 3                        | Divided into three groups of three notes each. |
+| 4    | 1, 1, 3, 1, 1, 1, 3, 1 | 8               | 6                        | 4                        | Contains semitones and minor thirds. |
+| 5    | 1, 4, 1, 1, 4, 1       | 6               | 6                        | 3                        | Contains semitones and major thirds. |
+| 6    | 2, 2, 1, 1, 2, 2, 1, 1 | 8               | 6                        | 4                        | Contains tones and semitones. |
+| 7    | 1, 1, 1, 2, 1, 1, 1, 1, 2, 1 | 10        | 6                        | 5                        | Contains semitones and tones. Most complex pattern. |
+
+This table accurately represents the information you provided for each of Messiaen's seven modes of limited transposition.
+
 ## .REASCALE FORMAT NOTES
 Understanding Interval Notation and Enharmonic Equivalents in .reascale Files.
 
