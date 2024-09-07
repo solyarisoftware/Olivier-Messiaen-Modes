@@ -1,10 +1,10 @@
-# Messiaen's Modes of Limited Transposition
+# Olivier Messiaen's Modes of Limited Transposition
 # -----------------------------------------
 # Study by Giorgio Robino (giorgio.robino@gmail.com), 
 # version. 0.1 2024-09-06 (first attempt, no shifts)
 # version. 0.2 2024-09-07 (names update, inserting second shifting mode for mode 2)
 
-2 "Messiaen's Modes of Limited Transposition: MODE 1"
+2 "Olivier Messiaen's Modes of Limited Transposition: MODE 1"
 
 # Mode 1: 
 # Intervals in Semitones: 2, 2, 2, 2, 2, 2 
@@ -16,7 +16,7 @@
 0 "2  2  2  2  2  2"    102030405060
 
 -2
-2 "Messiaen's Modes of Limited Transposition: MODE 2"
+2 "Olivier Messiaen's Modes of Limited Transposition: MODE 2"
 
 # Mode 2:
 # Intervals in Semitones: 1, 2, 1, 2, 1, 2, 1, 2 
@@ -38,7 +38,7 @@
 
 -2
 
-2 "Messiaen's Modes of Limited Transposition: MODE 3"
+2 "Olivier Messiaen's Modes of Limited Transposition: MODE 3"
 
 # Mode 3: 
 # Intervals in Semitones: 2, 1, 1, 2, 1, 1, 2, 1, 1 
@@ -50,7 +50,7 @@
 0 "2  1  1  2  1  1  2  1  1"    102230455067
 -2
 
-2 "Messiaen's Modes of Limited Transposition: MODE 4"
+2 "Olivier Messiaen's Modes of Limited Transposition: MODE 4"
 # Mode 4: 
 Intervals in Semitones: 1, 1, 3, 1, 1, 1, 3, 1 
 # Number of Notes: 8 
@@ -62,7 +62,7 @@ Intervals in Semitones: 1, 1, 3, 1, 1, 1, 3, 1
 
 -2
 
-2 "Messiaen's Modes of Limited Transposition: MODE 5"
+2 "Olivier Messiaen's Modes of Limited Transposition: MODE 5"
 # Mode 5: 
 # Intervals in Semitones: 1, 4, 1, 1, 4, 1 
 # Number of Notes: 6 
@@ -74,7 +74,7 @@ Intervals in Semitones: 1, 1, 3, 1, 1, 1, 3, 1
 
 -2
 
-2 "Messiaen's Modes of Limited Transposition: MODE 6"
+2 "Olivier Messiaen's Modes of Limited Transposition: MODE 6"
 
 # Mode 6: 
 # Intervals in Semitones: 2, 2, 1, 1, 2, 2, 1, 1 
@@ -87,7 +87,7 @@ Intervals in Semitones: 1, 1, 3, 1, 1, 1, 3, 1
 
 -2
 
-2 "Messiaen's Modes of Limited Transposition: MODE 7"
+2 "Olivier Messiaen's Modes of Limited Transposition: MODE 7"
 # Mode 7: 
 # Intervals in Semitones: 1, 1, 1, 2, 1, 1, 1, 1, 2, 1 
 # Number of Notes: 10 
