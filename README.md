@@ -1,9 +1,8 @@
 # Olivier-Messiaen-Modes
 Olivier Messiaen Modes of limited transposition in REAPER.
 
-## NOTES
-
-Understanding Interval Notation and Enharmonic Equivalents in .reascale Files
+## .REASCALE FORMAT NOTES
+Understanding Interval Notation and Enharmonic Equivalents in .reascale Files.
 
 The number values in a .reascale file represent intervals between notes.
  
@@ -26,9 +25,6 @@ crucial for scale snapping behavior. Two different notations can represent the s
 classes in REAPER, even if the interval numbers differ due to enharmonic equivalents
 (e.g., sharps vs. flats).
 
-- Example: Whole Tone Scale
-  This scale consists of six notes (C, D, E, F♯, G♯, A♯ or equivalently C, D, E, G♭, A♭, B♭).
-
 - Whole Tone Scale, Notation with sharps (C, D, E, F♯, G♯, A♯):
   ```
   | C  |   | D  |   | E  |   | F# |   | G# |   | A# |   |
@@ -38,8 +34,7 @@ classes in REAPER, even if the interval numbers differ due to enharmonic equival
   ```
   0 "Whole Tone"        102030405060 
   ```
-
-The above notation is EXACTLY EQUIVALENT to:
+  The above notation is EXACTLY EQUIVALENT to:
 
 - Whole Tone Scale, Notation with flats (C, D, E, G♭, A♭, B♭):
   ```
@@ -60,8 +55,7 @@ The above notation is EXACTLY EQUIVALENT to:
   ```
   0 "Chromatic"         112234455667 
   ```
-
-The above notation is EXACTLY EQUIVALENT to:
+  The above notation is EXACTLY EQUIVALENT to:
 
 - Example: Chromatic Scale, Notation with flats
   ```
