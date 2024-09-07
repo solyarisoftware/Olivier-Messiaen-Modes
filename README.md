@@ -3,8 +3,7 @@ Olivier Messiaen Modes of limited transposition in REAPER.
 
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/nCXxV7eDEPc/0.jpg)](https://www.youtube.com/watch?v=nCXxV7eDEPc)
 
-
-Here's a markdown table reflecting Olivier Messiaen's Modes of Limited Transposition:
+## Olivier Messiaen's Modes of Limited Transposition: Structural Overview
 
 | Mode | Intervals in Semitones | Number of Notes | Number of Transpositions | Number of Modes (Shifts) | Description |
 |------|------------------------|-----------------|--------------------------|--------------------------|-------------|
@@ -16,9 +15,20 @@ Here's a markdown table reflecting Olivier Messiaen's Modes of Limited Transposi
 | 6    | 2, 2, 1, 1, 2, 2, 1, 1 | 8               | 6                        | 4                        | Contains tones and semitones. |
 | 7    | 1, 1, 1, 2, 1, 1, 1, 1, 2, 1 | 10        | 6                        | 5                        | Contains semitones and tones. Most complex pattern. |
 
-This table accurately represents the information you provided for each of Messiaen's seven modes of limited transposition.
+This table presents a comprehensive overview of Olivier Messiaen's seven Modes of Limited Transposition, a fundamental concept in his musical language and compositional technique. Each row in the table represents one of Messiaen's modes, numbered from 1 to 7, and provides detailed structural information about each mode:
 
-# Comprehensive Analysis of Messiaen's Modes of Limited Transposition: Usage and Influence in 20th and 21st Century Compositions
+- Mode: The identifying number of each mode.
+- Intervals in Semitones: The specific interval pattern that defines each mode, expressed in semitones.
+- Number of Notes: The total number of unique pitches in each mode.
+- Number of Transpositions: How many unique transpositions exist for each mode before it repeats its initial form.
+- Number of Modes (Shifts): The number of unique rotations or shifts possible within each mode.
+- Description: A brief characterization of each mode, including common names (where applicable) and notable structural features.
+
+The table progresses from the simplest mode (Mode 1, the whole-tone scale) to the most complex (Mode 7). It illustrates the increasing complexity and asymmetry in Messiaen's system, showcasing how these modes break away from traditional diatonic scales. This structural analysis provides insight into the unique tonal and harmonic possibilities that these modes offered Messiaen and other composers who adopted them, fundamentally influencing 20th and 21st-century musical composition and theory.
+
+
+## Comprehensive Analysis of Messiaen's Modes of Limited Transposition: Usage and Influence in 20th and 21st Century Compositions
+
 | Mode | Composers | Messiaen's Works | Other Composers' Works | Notes |
 |------|-----------|-------------------|------------------------|-------|
 | 2 (Octatonic) | - Claude Debussy<br>- Igor Stravinsky<br>- Béla Bartók<br>- Alexander Scriabin<br>- Olivier Messiaen<br>- Bill Evans (Jazz)<br>- Witold Lutosławski | - Quatuor pour la fin du temps (1941): Used extensively, especially in "Danse de la fureur, pour les sept trompettes"<br>- L'Ascension (1933): Organ version, particularly in "Transports de joie"<br>- La Nativité du Seigneur (1935): In various movements, often combined with other modes<br>- Visions de l'Amen (1943): Throughout, especially in "Amen des étoiles" | - Debussy: "Voiles" from Préludes, Book 1 (1910): Alternates with whole-tone scale; "Feux d'artifice" from Préludes, Book 2 (1913): In climactic sections<br>- Stravinsky: The Firebird (1910): Used throughout, especially in "Infernal Dance"; Petrushka (1911): Forms the basis of the "Petrushka chord"; Symphony in Three Movements (1945): In harmonic structures<br>- Bartók: String Quartet No. 1 (1909): Final movement; Mikrokosmos (1926-1939): Various pieces, e.g., No. 101 "Diminished Fifth"; Bluebeard's Castle (1911): In certain harmonic progressions<br>- Scriabin: Sonata No. 6, Op. 62 (1911): Throughout; Sonata No. 7, Op. 64 "White Mass" (1911): In mystic harmonies<br>- Bill Evans: "Nardis" (1958): In improvisations; "Time Remembered" (1962): As harmonic basis<br>- Lutosławski: Symphony No. 3 (1983): In aleatoric sections | Most widely used mode outside of Messiaen's work. Often used to create a sense of tonal ambiguity or to generate complex harmonic structures. In jazz, it's sometimes called the "diminished scale" and is used for improvisation over diminished chords. Lutosławski's use in aleatoric music shows its versatility in more avant-garde contexts. |
