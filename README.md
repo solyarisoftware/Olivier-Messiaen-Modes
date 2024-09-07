@@ -1,6 +1,9 @@
 # Olivier-Messiaen-Modes
 Olivier Messiaen Modes of limited transposition in REAPER.
 
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/nCXxV7eDEPc/0.jpg)](https://www.youtube.com/watch?v=nCXxV7eDEPc)
+
+
 ## .REASCALE FORMAT NOTES
 Understanding Interval Notation and Enharmonic Equivalents in .reascale Files.
 
