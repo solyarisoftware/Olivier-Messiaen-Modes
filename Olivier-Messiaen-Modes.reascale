@@ -15,14 +15,27 @@
 
 0 "Mode 1 2-2-2-2-2-2"    102030405060
 
+2 "Mode 2"
+
 # Mode 2:
 # Intervals in Semitones: 1, 2, 1, 2, 1, 2, 1, 2 
 # Number of Notes: 8 
 # Number of Transpositions: 3 
-# Number of Modes (Shifts): 2 
+# Number of Modes (Shifts): 1 of 2 
 # Description: Octatonic, diminished, whole-half, or half-whole scale. Divided into four groups of three notes each.
 
-0 "Mode 2 1-2-1-2-1-2-1-2"    110230450660
+0 "Mode 2: 1-2-1-2-1-2-1-2"    110230450660
+
+# Mode 2:
+# Intervals in Semitones: 1, 2, 1, 2, 1, 2, 1, 2 
+# Number of Notes: 8 
+# Number of Transpositions: 3 
+# Number of Modes (Shifts): 2 of 2 
+# Description: Octatonic, diminished, whole-half, or half-whole scale. Divided into four groups of three notes each.
+
+0 "Mode 2: 2-1-2-1-2-1-2-1"    102204405607
+
+-2
 
 # Mode 3: 
 # Intervals in Semitones: 2, 1, 1, 2, 1, 1, 2, 1, 1 
