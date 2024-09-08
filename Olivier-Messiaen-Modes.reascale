@@ -71,6 +71,8 @@
 # Description: Contains semitones and major thirds.
 
 0 "1  4  1  1  4  1"    110004450007
+0 "4  1  1  4  1  1"    100034400067
+0 "1  1  4  1  1  4"    112000455000
 
 -2
 
