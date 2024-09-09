@@ -1,9 +1,10 @@
-# Olivier-Messiaen-Modes (Work In Progress)
-I created this repo to share my .reascale to enable in [REAPER](https://www.reaper.fm/) DAW the Olivier Messiaen's Modes of limited transposition.
+# Olivier-Messiaen-Modes
+I created this repo to share my [Olivier-Messiaen-Modes.reascale](Olivier-Messiaen-Modes.reascale)
+ to enable the Olivier Messiaen's Modes of limited transposition in [REAPER](https://www.reaper.fm/) DAW.
 
 ![](screenshot.PNG)
- 
 
+ 
 ## Olivier Messiaen's Modes of Limited Transposition: Structural Overview
 
 | Mode    | Intervals in Semitones       | Number of Notes | Number of Transpositions | Number of Modes (Shifts) | Description |
@@ -40,9 +41,6 @@ Key features of this file include:
 - Base Implementation: This version (0.2) provides the basic form of each mode without shifts or transpositions, serving as a foundation for further development.
 
 This .reascale file serves as both a practical tool for implementing Messiaen's modes in REAPER-based compositions and as an educational resource for understanding the structure of these influential 20th-century harmonic innovations. It bridges music theory and digital music production, making Messiaen's complex modal system more accessible to modern composers and producers.
-
-[Olivier-Messiaen-Modes.reascale](Olivier-Messiaen-Modes.reascale)
-
 
 
 ## References
