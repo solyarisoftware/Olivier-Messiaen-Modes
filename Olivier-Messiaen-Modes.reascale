@@ -2,7 +2,7 @@
 # -------------------------------------------------
 # By Giorgio Robino (giorgio.robino@gmail.com), 
 # version. 0.1 2024-09-06 (first attempt, no shifts)
-# version. 0.3 2024-09-09 (names update, inserting second all sub (shifts) until sixth mode included)
+# version. 0.3 2024-09-09 (names update, inserting second all sub modes (shifts)
 
 2 "Olivier Messiaen's Modes of Limited Transposition: FIRST MODE"
 
@@ -102,6 +102,10 @@
 # Description: Contains semitones and tones. Most complex pattern.
 
 0 "1  1  1  2  1  1  1  1  2  1"    112034455067
+0 "1  1  2  1  1  1  1  2  1  1"    110234450667
+0 "1  2  1  1  1  1  2  1  1  1"    110234450667
+0 "2  1  1  1  1  2  1  1  1  1"    102234405667
+0 "1  1  1  1  2  1  1  1  1  2"    112230455660
 
 -2
 
