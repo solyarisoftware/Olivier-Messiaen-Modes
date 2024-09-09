@@ -1,8 +1,8 @@
 # Olivier Messiaen's Modes of Limited Transposition
-# -----------------------------------------
-# Study by Giorgio Robino (giorgio.robino@gmail.com), 
+# -------------------------------------------------
+# By Giorgio Robino (giorgio.robino@gmail.com), 
 # version. 0.1 2024-09-06 (first attempt, no shifts)
-# version. 0.2 2024-09-08 (names update, inserting second all sub (shifts) until fourth mode)
+# version. 0.3 2024-09-09 (names update, inserting second all sub (shifts) until sixth mode included)
 
 2 "Olivier Messiaen's Modes of Limited Transposition: FIRST MODE"
 
@@ -86,6 +86,9 @@
 # Description: Contains tones and semitones.
 
 0 "2  2  1  1  2  2  1  1"    102034405067
+0 "2  1  1  2  2  1  1  2"    102230405660
+0 "1  1  2  2  1  1  2  2"    112030455060
+0 "1  2  2  1  1  2  2  1"    102034405060
 
 -2
 
@@ -100,4 +103,7 @@
 
 0 "1  1  1  2  1  1  1  1  2  1"    112034455067
 
+-2
+
+2 "https://github.com/solyarisoftware/Olivier-Messiaen-Modes"
 -2
