@@ -3,15 +3,15 @@
  
 ## Olivier Messiaen's Modes of Limited Transposition: Structural Overview
 
-| Mode    | --- Intervals in Semitones --- | Number of Notes | Number of Transpositions | Number of Modes (Shifts) | Description |
-|---------|----------------------------- |-----------------|--------------------------|--------------------------|-------------|
-| 1<br> FIRST MODE   | 2  2  2  2  2  2             | 6               | 2                        | 1                        | Whole-tone scale. Divided into six groups of two notes each. |
-| 2<br>SECOND MODE  | <nobr>1  2  1  2  1  2  1  2<br><br>2  1  2  1  2  1  2  1</nobr> | 8               | 3                        | 2                        | Octatonic, diminished, whole-half, or half-whole scale. Divided into four groups of three notes each. |
-| 3<br> THIRD MODE   | 2  1  1  2  1  1  2  1  1<br><br>1  1  2  1  1  2  1  1  2<br>1  2  1  1  2  1  1  2  1    | 9               | 4                        | 3                        | Divided into three groups of three notes each. |
-| 4<br>FOURTH MODE  | 1  1  3  1  1  1  3  1<br><br>1  3  1  1  1  3  1  1<br>3  1  1  1  3  1  1  1<br>1  1  1  3  1  1  1  3       | 8               | 6                        | 4                        | Contains semitones and minor thirds. |
-| 5<br> FIFTH MODE   | 1  4  1  1  4  1<br><br>4  1  1  4  1  1<br>1  1  4  1  1  4             | 6               | 6                        | 3                        | Contains semitones and major thirds. |
-| 6<br> SIXTH MODE   | 2  2  1  1  2  2  1  1<br><br>2  1  1  2  2  1  1  2<br>1  1  2  2  1  1  2  2<br>1  2  2  1  1  2  2  1   | 8               | 6                        | 4                        | Contains tones and semitones. |
-| 7<br> SEVENTH MODE | <nobr>1  1  1  2  1  1  1  1  2  1<br><br>1  1  2  1  1  1  1  2  1  1<br>1  2  1  1  1  1  2  1  1  1<br>2  1  1  1  1  2  1  1  1  1<br>1  1  1  1  2  1  1  1  1  2</nobr> | 10              | 6                        | 5                        | Contains semitones and tones. Most complex pattern. |
+| Mode Name | <div style="width:500px">Intervals in Semitones</div> | Number<br>of Notes | Number<br>of Transpositions | Number<br>of Modes (Shifts) | Description |
+|---------|----------------------------------|-----------------|--------------------------|--------------------------|-------------|
+| 1<br> FIRST MODE   | `2  2  2  2  2  2`             | 6               | 2                        | 1                        | Whole-tone scale. Divided into six groups of two notes each. |
+| 2<br>SECOND MODE  | `1  2  1  2  1  2  1  2`<br><br>`2  1  2  1  2  1  2  1` | 8               | 3                        | 2                        | Octatonic, diminished, whole-half, or half-whole scale. Divided into four groups of three notes each. |
+| 3<br> THIRD MODE   | `2  1  1  2  1  1  2  1  1`<br><br>`1  1  2  1  1  2  1  1  2`<br>`1  2  1  1  2  1  1  2  1`    | 9               | 4                        | 3                        | Divided into three groups of three notes each. |
+| 4<br>FOURTH MODE  | `1  1  3  1  1  1  3  1`<br><br>`1  3  1  1  1  3  1  1`<br>`3  1  1  1  3  1  1  1`<br>`1  1  1  3  1  1  1  3`       | 8               | 6                        | 4                        | Contains semitones and minor thirds. |
+| 5<br> FIFTH MODE   | `1  4  1  1  4  1`<br><br>`4  1  1  4  1  1`<br>`1  1  4  1  1  4`             | 6               | 6                        | 3                        | Contains semitones and major thirds. |
+| 6<br> SIXTH MODE   | `2  2  1  1  2  2  1  1`<br><br>`2  1  1  2  2  1  1  2`<br>`1  1  2  2  1  1  2  2`<br>`1  2  2  1  1  2  2  1`   | 8               | 6                        | 4                        | Contains tones and semitones. |
+| 7<br> SEVENTH MODE | `1  1  1  2  1  1  1  1  2  1`<br><br>`1  1  2  1  1  1  1  2  1  1`<br>`1  2  1  1  1  1  2  1  1  1`<br>`2  1  1  1  1  2  1  1  1  1`<br>`1  1  1  1  2  1  1  1  1  2` | 10              | 6                        | 5                        | Contains semitones and tones. Most complex pattern. |
 
 This table presents a comprehensive overview of Olivier Messiaen's seven Modes of Limited Transposition, a fundamental concept in his musical language and compositional technique. Each row in the table represents one of Messiaen's modes, numbered from 1 to 7, and provides detailed structural information about each mode:
 
