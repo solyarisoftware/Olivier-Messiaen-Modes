@@ -4,40 +4,47 @@
 # version. 0.1 2024-09-06 (first attempt, no shifts)
 # version. 0.3 2024-09-09 (names update, inserting second all sub modes (shifts)
 
-2 "Olivier Messiaen's Modes of Limited Transposition: FIRST MODE"
-
-# FIRST MODE: 
+# ----------
+# FIRST MODE 
+# ----------
 # Intervals in Semitones: 2, 2, 2, 2, 2, 2 
 # Number of Notes: 6 
 # Number of Transpositions: 2 
 # Number of Modes (Shifts): 1 
 # Description: Whole-tone scale. Divided into six groups of two notes each.
 
+2 "Olivier Messiaen's Modes of Limited Transposition: FIRST MODE"
+
 0 "2  2  2  2  2  2"    102030405060
 
 -2
-2 "Olivier Messiaen's Modes of Limited Transposition: SECOND MODE"
 
-# SECOND MODE:
+# -----------
+# SECOND MODE
+# -----------
 # Intervals in Semitones: 1, 2, 1, 2, 1, 2, 1, 2 
 # Number of Notes: 8 
 # Number of Transpositions: 3 
 # Number of Modes (Shifts): 2 
 # Description: Octatonic, diminished, whole-half, or half-whole scale. Divided into four groups of three notes each.
 
+2 "Olivier Messiaen's Modes of Limited Transposition: SECOND MODE"
+
 0 "1  2  1  2  1  2  1  2"    110230450660
 0 "2  1  2  1  2  1  2  1"    102204405607
 
 -2
 
-2 "Olivier Messiaen's Modes of Limited Transposition: THIRD MODE"
-
-# THIRD MODE: 
+# -----------
+# THIRD MODE 
+# -----------
 # Intervals in Semitones: 2, 1, 1, 2, 1, 1, 2, 1, 1 
 # Number of Notes: 9 
 # Number of Transpositions: 4 
 # Number of Modes (Shifts): 3 
 # Description: Divided into three groups of three notes each.
+
+2 "Olivier Messiaen's Modes of Limited Transposition: THIRD MODE"
 
 0 "2  1  1  2  1  1  2  1  1"    102230455067
 0 "1  1  2  1  1  2  1  1  2"    112034405660
@@ -45,14 +52,16 @@
 
 -2
 
-2 "Olivier Messiaen's Modes of Limited Transposition: FOURTH MODE"
-
-# FOURTH MODE: 
+# -----------
+# FOURTH MODE 
+# -----------
 # Intervals in Semitones: 1, 1, 3, 1, 1, 1, 3, 1 
 # Number of Notes: 8 
 # Number of Transpositions: 6 
 # Number of Modes (Shifts): 4 
 # Description: Contains semitones and minor thirds.
+
+2 "Olivier Messiaen's Modes of Limited Transposition: FOURTH MODE"
 
 0 "1  1  3  1  1  1  3  1"    112004455007
 0 "1  3  1  1  1  3  1  1"    110034450067
@@ -61,14 +70,16 @@
 
 -2
 
-2 "Olivier Messiaen's Modes of Limited Transposition: FIFTH MODE"
-
-# FIFTH MODE: 
+# -----------
+# FIFTH MODE 
+# -----------
 # Intervals in Semitones: 1, 4, 1, 1, 4, 1 
 # Number of Notes: 6 
 # Number of Transpositions: 6 
 # Number of Modes (Shifts): 3 
 # Description: Contains semitones and major thirds.
+
+2 "Olivier Messiaen's Modes of Limited Transposition: FIFTH MODE"
 
 0 "1  4  1  1  4  1"    110004450007
 0 "4  1  1  4  1  1"    100034400067
@@ -76,14 +87,16 @@
 
 -2
 
-2 "Olivier Messiaen's Modes of Limited Transposition: SIXTH MODE"
-
-# SIXTH MODE: 
+# -----------
+# SIXTH MODE
+# -----------
 # Intervals in Semitones: 2, 2, 1, 1, 2, 2, 1, 1 
 # Number of Notes: 8 
 # Number of Transpositions: 6 
 # Number of Modes (Shifts): 4 
 # Description: Contains tones and semitones.
+
+2 "Olivier Messiaen's Modes of Limited Transposition: SIXTH MODE"
 
 0 "2  2  1  1  2  2  1  1"    102034405067
 0 "2  1  1  2  2  1  1  2"    102230405660
@@ -92,14 +105,16 @@
 
 -2
 
-2 "Olivier Messiaen's Modes of Limited Transposition: SEVENTH MODE"
-
-# SEVENTH MODE: 
+# ------------
+# SEVENTH MODE 
+# ------------
 # Intervals in Semitones: 1, 1, 1, 2, 1, 1, 1, 1, 2, 1 
 # Number of Notes: 10 
 # Number of Transpositions: 6 
 # Number of Modes (Shifts): 5 
 # Description: Contains semitones and tones. Most complex pattern.
+
+2 "Olivier Messiaen's Modes of Limited Transposition: SEVENTH MODE"
 
 0 "1  1  1  2  1  1  1  1  2  1"    112034455067
 0 "1  1  2  1  1  1  1  2  1  1"    110234450667
@@ -109,5 +124,6 @@
 
 -2
 
+# INFO 
 2 "https://github.com/solyarisoftware/Olivier-Messiaen-Modes"
 -2
