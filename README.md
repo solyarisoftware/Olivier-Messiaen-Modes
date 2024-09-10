@@ -8,7 +8,7 @@ I created this repo to share my [Olivier-Messiaen-Modes.reascale](Olivier-Messia
 
 ## Olivier Messiaen's Modes of Limited Transposition
 
-| Mode | Intervals in Semitones (Grouped)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Notes | Shifts | Transpositions | Description |
+| Mode | Intervals in Semitones (Grouped)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Notes | Shifts | Transpositions | Description |
 |:-----|:--------------------------------|:------|:-------|:---------------|:------------|
 | 1    | `(2 2 2 2 2 2)`                 | 6     | 1      | 2              | Whole-tone scale. One symmetrical group of six notes. |
 | 2    | 1. `(1 2 1 2) (1 2 1 2)`<br>2. `(2 1 2 1) (2 1 2 1)` | 8 | 2 | 3 | Octatonic scale. Two symmetrical groups of four notes each. |
