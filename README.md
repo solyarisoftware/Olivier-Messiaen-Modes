@@ -28,15 +28,13 @@ Note: All modes are characterized by symmetry in their groupings, which is a key
 
 
 ---
-
 # REAPER Reascale Format
 
-## Notes on `.reascale` REAPER Format 
-Understanding Interval Notation and Enharmonic Equivalents in .reascale Files.
-The number values in a .reascale file represent intervals between notes.
- 
-## Remapping Notes to Intervals:
-To represent a scale, you can remap note names to corresponding numbers:
+## Understanding Interval Notation in `.reascale` Files
+In the REAPER `.reascale` format, the number values correspond to the intervals between the notes of a scale. These intervals represent the distance between notes in semitones, providing a flexible way to define scales.
+
+## Mapping Notes to Interval Values:
+Each note in a scale can be mapped to a number that represents its position relative to the root note:
 ```
 C = 1
 D = 2
@@ -46,71 +44,78 @@ G = 5
 A = 6
 B = 7
 ```
-If a scale step is represented by any non-zero number (such as 1, 2, 3, etc.),
-that step is active in the scale. A "0" indicates that no note is assigned to that position.
+A non-zero number (such as 1, 2, 3) represents an active scale step, while "0" indicates a skipped note. These numbers define the structure of the scale in REAPER.
 
-Therefore, the specific interval numbers only matter for transposition purposes and are not
-crucial for scale snapping behavior. Two different notations can represent the same pitch
-classes in REAPER, even if the interval numbers differ due to enharmonic equivalents
-(e.g., sharps vs. flats).
+Enharmonic equivalents (e.g., sharps vs. flats) may use different interval notations but result in the same pitch classes. For example:
 
-- Whole Tone Scale, Notation with sharps (C, D, E, F♯, G♯, A♯):
+- Whole Tone Scale, Notated with Sharps (C, D, E, F♯, G♯, A♯):
   ```
   | C  |   | D  |   | E  |   | F# |   | G# |   | A# |   |
   | 1  | 0 | 2  | 0 | 3  | 0 | 4  | 0 | 5  | 0 | 6  | 0 |
   ```
-  in REAPER raescale format:
+  In `.reascale` format:
   ```
-  0 "Whole Tone"        102030405060 
+  0 "Whole Tone"        102030405060
   ```
-  The above notation is EXACTLY EQUIVALENT to:
 
-- Whole Tone Scale, Notation with flats (C, D, E, G♭, A♭, B♭):
+- Whole Tone Scale, Notated with Flats (C, D, E, G♭, A♭, B♭):
   ```
-  | C  |   | D  |   | E  |   | Gb |   | Ab |   | Bb |   | 
+  | C  |   | D  |   | E  |   | Gb |   | Ab |   | Bb |   |
   | 1  | 0 | 2  | 0 | 3  | 0 | 5  | 0 | 6  | 0 | 7  | 0 |
   ```
-  in REAPER raescale format:
+  In `.reascale` format:
   ```
-  0 "Whole Tone"        102030506070 
+  0 "Whole Tone"        102030506070
   ```
 
-- Example: Chromatic Scale, Notation with sharps
+- Chromatic Scale, Notated with Sharps:
   ```
-  | C  | C# | D  | D# | E  | F  | F# | G  | G# | A  | A# | B  | 
+  | C  | C# | D  | D# | E  | F  | F# | G  | G# | A  | A# | B  |
   | 1  | 1  | 2  | 2  | 3  | 4  | 4  | 5  | 5  | 6  | 6  | 7  |
   ```
-  in REAPER raescale format:
+  In `.reascale` format:
   ```
-  0 "Chromatic"         112234455667 
+  0 "Chromatic"         112234455667
   ```
-  The above notation is EXACTLY EQUIVALENT to:
 
-- Example: Chromatic Scale, Notation with flats
+- Chromatic Scale, Notated with Flats:
   ```
-  | C  | Db | D  | Eb | E  | F  | Gb | G  | Ab | A  | Bb | B  | 
+  | C  | Db | D  | Eb | E  | F  | Gb | G  | Ab | A  | Bb | B  |
   | 1  | 2  | 2  | 3  | 3  | 4  | 5  | 5  | 6  | 6  | 7  | 7  |
   ```
-  in REAPER raescale format:
+  In `.reascale` format:
   ```
-  0 "Chromatic"         122334556677 
+  0 "Chromatic"         122334556677
   ```
 
-## REAPER Scale Implementation of Olivier Messiaen's Modes of Limited Transposition
+## REAPER Reascale Implementation of Olivier Messiaen's Modes of Limited Transposition
 
-The Olivier-Messiaen-Modes.reascale file is a specialized scale definition file for REAPER, a digital audio workstation (DAW). This file encodes Olivier Messiaen's seven Modes of Limited Transposition, providing a practical tool for musicians and composers working with these unique harmonic structures in a digital environment.
-Key features of this file include:
+This `.reascale` file provides a full implementation of Olivier Messiaen's seven *Modes of Limited Transposition* for use in the REAPER DAW. It allows musicians and composers to explore these unique scales within their projects, offering a comprehensive and detailed resource.
 
-- Comprehensive Coverage: All seven of Messiaen's modes are represented, from the simplest (Mode 1, the whole-tone scale) to the most complex (Mode 7).
-- Detailed Labeling: Each mode is clearly labeled with its number and interval structure (e.g., "Mode 1 2-2-2-2-2-2").
-- Numeric Encoding: The modes are encoded using REAPER's numeric system, where each digit represents a semitone step in the scale.
-- Metadata: The file includes version information and authorship details, indicating ongoing development and refinement.
-- Educational Comments: Each mode is preceded by comments detailing its structural characteristics, including the number of notes, transpositions, and shifts, as well as a brief description.
-- Base Implementation: This version (0.2) provides the basic form of each mode without shifts or transpositions, serving as a foundation for further development.
+Key features include:
 
-This .reascale file serves as both a practical tool for implementing Messiaen's modes in REAPER-based compositions and as an educational resource for understanding the structure of these influential 20th-century harmonic innovations. It bridges music theory and digital music production, making Messiaen's complex modal system more accessible to modern composers and producers.
+1. **Complete Set of Modes**: All seven of Messiaen's modes are encoded, from Mode 1 (the whole-tone scale) to Mode 7, with all relevant shifts (or transpositions) included.
+  
+2. **Clear Labeling**: Each mode is labeled with its corresponding interval structure (e.g., "Mode 1: (2 2 2 2 2 2)"), making it easy to identify and work with.
 
+3. **Interval Representation**: The modes are represented numerically using REAPER’s system, where each digit corresponds to a semitone step in the scale.
 
+4. **Versioning and Authorship**: The file includes metadata such as the version number (v0.4) and the author (Giorgio Robino), indicating active development as of September 2024.
+
+5. **Educational Comments**: Each mode is preceded by detailed comments explaining its structural characteristics, including:
+   - The interval structure in semitones
+   - The number of notes and transpositions
+   - The number of distinct modal shifts
+   - A brief overview of the mode's features
+
+6. **Comprehensive Shift Implementation**: This file not only encodes the basic form of each mode but also includes all possible transpositions, offering a complete representation of Messiaen's modal system.
+
+7. **Additional Resources**: A link to a GitHub repository is provided for further resources and updates.
+
+### Practical Uses
+This `.reascale` file serves as both a practical tool for REAPER users and an educational guide for understanding Messiaen’s modes. It is ideal for composers who wish to integrate these 20th-century harmonic structures into their work or for theorists exploring Messiaen’s innovations.
+
+---
 
 ## Comprehensive Analysis of Messiaen's Modes of Limited Transposition: Usage and Influence in 20th and 21st Century Compositions
 
