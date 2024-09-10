@@ -1,26 +1,5 @@
 # Some Theory
 
-## Olivier Messiaen's Modes of Limited Transposition: Enhanced Structural Overview
-
-| Mode | Intervals in Semitones (Grouped)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Notes | Transpositions | Shifts | Description |
-|:-----|:--------------------------------|:------|:---------------|:-------|:------------|
-| 1    | `(2 2) (2 2) (2 2)`             | 6     | 2              | 1      | Whole-tone scale. Six groups of two notes each. |
-| 2    | 1. `(1 2 1) (2 1 2) (1 2)`<br>2. `(2 1 2) (1 2 1) (2 1)` | 8 | 3 | 2 | Octatonic, diminished, whole-half, or half-whole scale. Four groups of three notes each. |
-| 3    | 1. `(2 1 1) (2 1 1) (2 1 1)`<br>2. `(1 1 2) (1 1 2) (1 1 2)`<br>3. `(1 2 1) (1 2 1) (1 2 1)` | 9 | 4 | 3 | Three groups of three notes each. |
-| 4    | 1. `(1 1 3) (1 1 1) (3 1)`<br>2. `(1 3 1) (1 1 3) (1 1)`<br>3. `(3 1 1) (1 3 1) (1 1)`<br>4. `(1 1 1) (3 1 1) (1 3)` | 8 | 6 | 4 | Contains semitones and minor thirds. |
-| 5    | 1. `(1 4) (1 1 4) (1)`<br>2. `(4 1) (1 4 1) (1)`<br>3. `(1 1) (4 1 1) (4)` | 6 | 6 | 3 | Contains semitones and major thirds. |
-| 6    | 1. `(2 2 1 1) (2 2 1 1)`<br>2. `(2 1 1 2) (2 1 1 2)`<br>3. `(1 1 2 2) (1 1 2 2)`<br>4. `(1 2 2 1) (1 2 2 1)` | 8 | 6 | 4 | Contains tones and semitones. |
-| 7    | 1. `(1 1 1 2 1) (1 1 1 2 1)`<br>2. `(1 1 2 1 1) (1 1 2 1 1)`<br>3. `(1 2 1 1 1) (1 2 1 1 1)`<br>4. `(2 1 1 1 1) (2 1 1 1 1)`<br>5. `(1 1 1 1 2) (1 1 1 1 2)` | 10 | 6 | 5 | Contains semitones and tones. Most complex pattern. |
-
-Legend:
-- Notes: Number of notes in the mode
-- Transpositions: Number of possible transpositions
-- Shifts: Number of unique rotations (modes) within each transposition
-- Groupings: Parentheses () show the repeating pattern within each mode
-
-Note: The groupings highlight the internal structure of each mode, showing how Messiaen organized the intervals into repeating patterns.
-
-
 ## Comprehensive Analysis of Messiaen's Modes of Limited Transposition: Usage and Influence in 20th and 21st Century Compositions
 
 | Mode | Composers | Messiaen's Works | Other Composers' Works | Notes |
