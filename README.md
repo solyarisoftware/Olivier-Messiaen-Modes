@@ -1,7 +1,7 @@
-# Olivier-Messiaen-Modes
+# Olivier Messiaen Modes
 
 I created this repo to share my [Olivier-Messiaen-Modes.reascale](Olivier-Messiaen-Modes.reascale)
- to enable the Olivier Messiaen's Modes of limited transposition in [REAPER](https://www.reaper.fm/) DAW.
+enabling the Olivier Messiaen's Modes of limited transposition in [REAPER](https://www.reaper.fm/) DAW.
 
 ![](img/screenshot.png)
 
