@@ -10,13 +10,13 @@ enabling the Olivier Messiaen's Modes of limited transposition in [REAPER](https
 
 | Mode | Intervals in Semitones (Grouped)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Notes | Shifts | Transpositions | Description |
 |:-----|:--------------------------------|:------|:-------|:---------------|:------------|
-| 1    | `(2 2 2 2 2 2)`                 | 6     | 1      | 2              | Whole-tone scale. One symmetrical group of six notes. |
-| 2    | 1. `(1 2 1 2) (1 2 1 2)`<br>2. `(2 1 2 1) (2 1 2 1)` | 8 | 2 | 3 | Octatonic scale. Two symmetrical groups of four notes each. |
+| 1    | `(2 2 2 2 2 2)`                 | 6     | 1      | 2              | Whole-tone scale.<br>One symmetrical group of six notes. |
+| 2    | 1. `(1 2 1 2) (1 2 1 2)`<br>2. `(2 1 2 1) (2 1 2 1)` | 8 | 2 | 3 | Octatonic scale.<br>Two symmetrical groups of four notes each. |
 | 3    | 1. `(2 1 1) (2 1 1) (2 1 1)`<br>2. `(1 1 2) (1 1 2) (1 1 2)`<br>3. `(1 2 1) (1 2 1) (1 2 1)` | 9 | 3 | 4 | Three symmetrical groups of three notes each. |
-| 4    | 1. `(1 1 3 1) (1 1 3 1)`<br>2. `(1 3 1 1) (1 3 1 1)`<br>3. `(3 1 1 1) (3 1 1 1)`<br>4. `(1 1 1 3) (1 1 1 3)` | 8 | 4 | 6 | Two symmetrical groups of four notes each. Contains semitones and minor thirds. |
-| 5    | 1. `(1 4 1) (1 4 1)`<br>2. `(4 1 1) (4 1 1)`<br>3. `(1 1 4) (1 1 4)` | 6 | 3 | 6 | Two symmetrical groups of three notes each. Contains semitones and major thirds. |
-| 6    | 1. `(2 2 1 1) (2 2 1 1)`<br>2. `(2 1 1 2) (2 1 1 2)`<br>3. `(1 1 2 2) (1 1 2 2)`<br>4. `(1 2 2 1) (1 2 2 1)` | 8 | 4 | 6 | Two symmetrical groups of four notes each. Contains tones and semitones. |
-| 7    | 1. `(1 1 1 2 1) (1 1 1 2 1)`<br>2. `(1 1 2 1 1) (1 1 2 1 1)`<br>3. `(1 2 1 1 1) (1 2 1 1 1)`<br>4. `(2 1 1 1 1) (2 1 1 1 1)`<br>5. `(1 1 1 1 2) (1 1 1 1 2)` | 10 | 5 | 6 | Two symmetrical groups of five notes each. Contains semitones and tones. Most complex pattern. |
+| 4    | 1. `(1 1 3 1) (1 1 3 1)`<br>2. `(1 3 1 1) (1 3 1 1)`<br>3. `(3 1 1 1) (3 1 1 1)`<br>4. `(1 1 1 3) (1 1 1 3)` | 8 | 4 | 6 | Two symmetrical groups of four notes each.<br>Contains semitones and minor thirds. |
+| 5    | 1. `(1 4 1) (1 4 1)`<br>2. `(4 1 1) (4 1 1)`<br>3. `(1 1 4) (1 1 4)` | 6 | 3 | 6 | Two symmetrical groups of three notes each.<br>Contains semitones and major thirds. |
+| 6    | 1. `(2 2 1 1) (2 2 1 1)`<br>2. `(2 1 1 2) (2 1 1 2)`<br>3. `(1 1 2 2) (1 1 2 2)`<br>4. `(1 2 2 1) (1 2 2 1)` | 8 | 4 | 6 | Two symmetrical groups of four notes each.<br>Contains tones and semitones. |
+| 7    | 1. `(1 1 1 2 1) (1 1 1 2 1)`<br>2. `(1 1 2 1 1) (1 1 2 1 1)`<br>3. `(1 2 1 1 1) (1 2 1 1 1)`<br>4. `(2 1 1 1 1) (2 1 1 1 1)`<br>5. `(1 1 1 1 2) (1 1 1 1 2)` | 10 | 5 | 6 | Two symmetrical groups of five notes each.<br>Contains semitones and tones. Most complex pattern. |
 
 Legend:
 - Notes: Total number of notes in the mode
