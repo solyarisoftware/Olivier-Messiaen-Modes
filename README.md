@@ -108,12 +108,9 @@ Key features include:
    - The number of distinct modal shifts
    - A brief overview of the mode's features
 
-6. **Comprehensive Shift Implementation**: This file not only encodes the basic form of each mode but also includes all possible transpositions, offering a complete representation of Messiaen's modal system.
+6. **Comprehensive Shift Implementation**: This file not only encodes the basic form of each mode but also includes all possible rotations (or shifts), offering a complete representation of Messiaen's modal system.
 
 7. **Additional Resources**: A link to a GitHub repository is provided for further resources and updates.
-
-### Practical Uses
-This `.reascale` file serves as both a practical tool for REAPER users and an educational guide for understanding Messiaen’s modes. It is ideal for composers who wish to integrate these 20th-century harmonic structures into their work or for theorists exploring Messiaen’s innovations.
 
 ---
 
