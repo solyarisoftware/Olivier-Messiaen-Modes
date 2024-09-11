@@ -11,12 +11,12 @@ enabling the Olivier Messiaen's Modes of limited transposition in [REAPER](https
 | Mode | Intervals in Semitones (Grouped)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Notes | Shifts | Transpositions | Description |
 |:-----|:--------------------------------|:------|:-------|:---------------|:------------|
 | 1    | `(2 2 2 2 2 2)`                 | 6     | 1      | 2              | Whole-tone scale.<br>One symmetrical group of six notes. |
-| 2    | 1. `(1 2 1 2) (1 2 1 2)`<br>2. `(2 1 2 1) (2 1 2 1)` | 8 | 2 | 3 | Octatonic scale.<br>Two symmetrical groups of four notes each. |
-| 3    | 1. `(2 1 1) (2 1 1) (2 1 1)`<br>2. `(1 1 2) (1 1 2) (1 1 2)`<br>3. `(1 2 1) (1 2 1) (1 2 1)` | 9 | 3 | 4 | Three symmetrical groups of three notes each. |
-| 4    | 1. `(1 1 3 1) (1 1 3 1)`<br>2. `(1 3 1 1) (1 3 1 1)`<br>3. `(3 1 1 1) (3 1 1 1)`<br>4. `(1 1 1 3) (1 1 1 3)` | 8 | 4 | 6 | Two symmetrical groups of four notes each.<br>Contains semitones and minor thirds. |
-| 5    | 1. `(1 4 1) (1 4 1)`<br>2. `(4 1 1) (4 1 1)`<br>3. `(1 1 4) (1 1 4)` | 6 | 3 | 6 | Two symmetrical groups of three notes each.<br>Contains semitones and major thirds. |
-| 6    | 1. `(2 2 1 1) (2 2 1 1)`<br>2. `(2 1 1 2) (2 1 1 2)`<br>3. `(1 1 2 2) (1 1 2 2)`<br>4. `(1 2 2 1) (1 2 2 1)` | 8 | 4 | 6 | Two symmetrical groups of four notes each.<br>Contains tones and semitones. |
-| 7    | 1. `(1 1 1 2 1) (1 1 1 2 1)`<br>2. `(1 1 2 1 1) (1 1 2 1 1)`<br>3. `(1 2 1 1 1) (1 2 1 1 1)`<br>4. `(2 1 1 1 1) (2 1 1 1 1)`<br>5. `(1 1 1 1 2) (1 1 1 1 2)` | 10 | 5 | 6 | Two symmetrical groups of five notes each.<br>Contains semitones and tones. Most complex pattern. |
+| 2    | 2.1: `(1 2 1 2) (1 2 1 2)`<br>2.2: `(2 1 2 1) (2 1 2 1)` | 8 | 2 | 3 | Octatonic scale.<br>Two symmetrical groups of four notes each. |
+| 3    | 3.1: `(2 1 1) (2 1 1) (2 1 1)`<br>3.2: `(1 1 2) (1 1 2) (1 1 2)`<br>3.3: `(1 2 1) (1 2 1) (1 2 1)` | 9 | 3 | 4 | Three symmetrical groups of three notes each. |
+| 4    | 4.1: `(1 1 3 1) (1 1 3 1)`<br>4.2: `(1 3 1 1) (1 3 1 1)`<br>4.3: `(3 1 1 1) (3 1 1 1)`<br>4.4: `(1 1 1 3) (1 1 1 3)` | 8 | 4 | 6 | Two symmetrical groups of four notes each.<br>Contains semitones and minor thirds. |
+| 5    | 5.1: `(1 4 1) (1 4 1)`<br>5.2: `(4 1 1) (4 1 1)`<br>5.3: `(1 1 4) (1 1 4)` | 6 | 3 | 6 | Two symmetrical groups of three notes each.<br>Contains semitones and major thirds. |
+| 6    | 6.1: `(2 2 1 1) (2 2 1 1)`<br>6.2: `(2 1 1 2) (2 1 1 2)`<br>6.3: `(1 1 2 2) (1 1 2 2)`<br>6.4: `(1 2 2 1) (1 2 2 1)` | 8 | 4 | 6 | Two symmetrical groups of four notes each.<br>Contains tones and semitones. |
+| 7    | 7.1: `(1 1 1 2 1) (1 1 1 2 1)`<br>7.2: `(1 1 2 1 1) (1 1 2 1 1)`<br>7.3: `(1 2 1 1 1) (1 2 1 1 1)`<br>7.4: `(2 1 1 1 1) (2 1 1 1 1)`<br>7.5: `(1 1 1 1 2) (1 1 1 1 2)` | 10 | 5 | 6 | Two symmetrical groups of five notes each.<br>Contains semitones and tones. Most complex pattern. |
 
 Legend:
 - Notes: Total number of notes in the mode
@@ -32,6 +32,50 @@ Note: All modes are characterized by symmetry in their groupings, which is a key
 
 ## Understanding Interval Notation in `.reascale` Files
 In the REAPER `.reascale` format, the number values correspond to the intervals between the notes of a scale. These intervals represent the distance between notes in semitones, providing a flexible way to define scales.
+
+### Default example.reascale file
+
+```
+# .reascale files can be loaded into the REAPER MIDI editor, via the Scale dropdown list.
+#
+# Types (the first number):
+# -2: end of submenu
+# -1: separator
+# 0: scale
+# 1: chord
+# 2: submenu in scale section
+# 3: submenu in chord section
+#
+# Lines starting with '#' are ignored.
+#
+# To create a scale definition, place each interval number
+# at the correct number of semitones from the left (root).
+#
+# For snapping to scale, all that matters is which values are not zero.
+# The actual interval numbers are only used when transposing, and can be repeated.
+# If needed (for exotic scales), use A=10, B=11, C=12, etc.
+#
+# examples:
+#
+# 0 "Major"           102034050607
+# 1 "Major triad"     100030050000
+# 0 "Blues"           100304450070
+# 1 "Dim 7th chord"   100300500700
+
+-1
+0 "Whole Tone"        102030506070
+
+2 "Modes"
+0 "Dorian"            102304050670
+0 "Phrygian"          120304056070
+0 "Lydian"            102030450607
+0 "Mixolydian"        102034050670
+0 "Aeolian"           102304056070
+0 "Locrian"           120304506070
+-2
+
+1 "Tritone"           100000500000
+```
 
 ## Mapping Notes to Interval Values:
 Each note in a scale can be mapped to a number that represents its position relative to the root note:
