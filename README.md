@@ -22,7 +22,6 @@ Legend:
 - Notes: Total number of notes in the mode
 - Shifts: Number of unique rotations (modes) within each transposition
 - Transpositions: Number of possible transpositions before the mode repeats
-- Groupings: Parentheses () show the repeating symmetrical pattern within each mode
 
 Note: All modes are characterized by symmetry in their groupings, which is a key feature of Messiaen's compositional technique.
 
@@ -193,4 +192,16 @@ The "Messiaen's Works" and "Other Composers' Works" columns include composition 
 - [Rick Beato's introductory youtube video](https://www.youtube.com/watch?v=nCXxV7eDEPc)
 - [Related Reaper Forum Thread](https://forum.cockos.com/showthread.php?p=2807156#post2807156)
 
+## 🙏 Status / How to contribute
+
+This project is work-in-progress proof-of-concept draft version.
+
+Any contribute or suggestion is welcome.
+For any proposal and issue, please submit here on github issues for bugs, suggestions, etc.
+You can also contact me via email (giorgio.robino@gmail.com).
+
+**IF YOU LIKE THE PROJECT, PLEASE ⭐️STAR THIS REPOSITORY TO SHOW YOUR SUPPORT!**
+
+
+[top](#)
 ---
