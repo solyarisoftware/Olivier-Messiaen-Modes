@@ -6,6 +6,7 @@ enabling the Olivier Messiaen's Modes of limited transposition in [REAPER](https
 ![](img/screenshot.png)
 
 
+
 ## Olivier Messiaen's Modes of Limited Transposition
 
 | Mode | Intervals in Semitones (Grouped)  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  | Notes | Shifts | Transpositions | Description |
@@ -18,19 +19,17 @@ enabling the Olivier Messiaen's Modes of limited transposition in [REAPER](https
 | 6    | 6.1: `2 2 1 1 2 2 1 1`<br>6.2: `2 1 1 2 2 1 1 2`<br>6.3: `1 1 2 2 1 1 2 2`<br>6.4: `1 2 2 1 1 2 2 1` | 8 | 4 | 6 | Contains tones and semitones |
 | 7    | 7.1: `1 1 1 2 1 1 1 1 2 1`<br>7.2: `1 1 2 1 1 1 1 2 1 1`<br>7.3: `1 2 1 1 1 1 2 1 1 1`<br>7.4: `2 1 1 1 1 2 1 1 1 1`<br>7.5: `1 1 1 1 2 1 1 1 1 2` | 10 | 5 | 6 | Contains semitones and tones. Most complex pattern |
 
+
 Legend:
-- Notes: Total number of notes in the mode
-- Shifts: Number of unique rotations (modes) within each transposition
-- Transpositions: Number of possible transpositions before the mode repeats
+- Mode: Numerical identifier for each mode of limited transposition
+- Intervals in Semitones: Sequence of intervals between consecutive notes in semitones
+- Notes: Total distinct pitches in the mode
+- Shifts: Unique rotations within each mode
+- Transpositions: Distinct starting pitches before repetition
+- Description: Brief characterization of the mode's structure
 
-Note: All modes are characterized by symmetry in their groupings, which is a key feature of Messiaen's compositional technique.
 
-
----
 # REAPER Reascale Format
-
-## Understanding Interval Notation in `.reascale` Files
-In the REAPER `.reascale` format, the number values correspond to the intervals between the notes of a scale. These intervals represent the distance between notes in semitones, providing a flexible way to define scales.
 
 ### Default example.reascale file
 
@@ -76,9 +75,13 @@ In the REAPER `.reascale` format, the number values correspond to the intervals 
 1 "Tritone"           100000500000
 ```
 
-## Mapping Notes to Interval Values:
+
+## Understanding Interval Notation in `.reascale` Files
+In the REAPER `.reascale` format, the number values correspond to the intervals between the notes of a scale. 
+These intervals represent the distance between notes in semitones, providing a flexible way to define scales. 
 Each note in a scale can be mapped to a number that represents its position relative to the root note:
 ```
+No-note = 0
 C = 1
 D = 2
 E = 3
@@ -133,27 +136,29 @@ Enharmonic equivalents (e.g., sharps vs. flats) may use different interval notat
 
 ## REAPER Reascale Implementation of Olivier Messiaen's Modes of Limited Transposition
 
-This `.reascale` file provides a full implementation of Olivier Messiaen's seven *Modes of Limited Transposition* for use in the REAPER DAW. It allows musicians and composers to explore these unique scales within their projects, offering a comprehensive and detailed resource.
+I applied the notation coding above explained for each mode (an his rotations). 
+By example, consider the mode 2 in first rotation (`2.1`) also called "octatonic scale):
+The first shift (rotation) is a sequence of step interval, whole tone intervals: 
+```
+2.1: 1 2 1 2 1 2 1 2
+```
 
-Key features include:
-
-1. **Complete Set of Modes**: All seven of Messiaen's modes are encoded, from Mode 1 (the whole-tone scale) to Mode 7, with all relevant shifts (or transpositions) included.
-  
-2. **Clear Labeling**: Each mode is labeled with its corresponding interval structure (e.g., "Mode 1: (2 2 2 2 2 2)"), making it easy to identify and work with.
-
-3. **Interval Representation**: The modes are represented numerically using REAPER’s system, where each digit corresponds to a semitone step in the scale.
-
-4. **Versioning and Authorship**: The file includes metadata such as the version number (v0.4) and the author (Giorgio Robino), indicating active development as of September 2024.
-
-5. **Educational Comments**: Each mode is preceded by detailed comments explaining its structural characteristics, including:
-   - The interval structure in semitones
-   - The number of notes and transpositions
-   - The number of distinct modal shifts
-   - A brief overview of the mode's features
-
-6. **Comprehensive Shift Implementation**: This file not only encodes the basic form of each mode but also includes all possible rotations (or shifts), offering a complete representation of Messiaen's modal system.
-
-7. **Additional Resources**: A link to a GitHub repository is provided for further resources and updates.
+So to code this scale in .reascale format I start from this grid where I list all 12 notes in the octave, using sharp notation (an arbitrary decision):
+ 
+```
+| C  | C# | D  | D# | E  | F  | F# | G  | G# | A  | A# | B  |
+|    |    |    |    |    |    |    |    |    |    |    |    |
+```
+Afterward I create the .reascale sequence just filling the note number:
+```
+| C  | C# | D  | D# | E  | F  | F# | G  | G# | A  | A# | B  |
+| x  |  x |    | x  |  x |    |  x | x  |    | x  | x  |    |
+| 1  |  1 | 0  | 2  |  3 |  0 |  4 | 5  |  0 | 6  | 6  | 0  |
+```
+the final sequence that identify the scale is in .reascale format:
+```
+110230450660
+```
 
 ---
 
