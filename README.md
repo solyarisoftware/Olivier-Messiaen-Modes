@@ -27,27 +27,27 @@ Octatonic, diminished, whole-half, or half-whole scale. 8 Notes, 2 Shifts, 3 Tra
 ### Mode 3
 Contains tones and semitones. 9 Notes, 3 Shifts, 4 Transpositions.
 | Id | Intervals in Semitones | Shift |
-|:--------|:-----------------------||:---------------|
-| 3.1     | `2 1 1 2 1 1 2 1 1`    | Root position              | 
-| 3.2     | `1 1 2 1 1 2 1 1 2`    | First shift (left)               |
-| 3.3     | `1 2 1 1 2 1 1 2 1`    | Second shift (left)               | 
+|:--------|:-----------------------|:---------------------|
+| 3.1     | `2 1 1 2 1 1 2 1 1`    | Root position        | 
+| 3.2     | `1 1 2 1 1 2 1 1 2`    | First shift (left)   |
+| 3.3     | `1 2 1 1 2 1 1 2 1`    | Second shift (left)  | 
 
 ### Mode 4
-Contains semitones and minor thirds
-| Id | Intervals in Semitones | Notes | Shifts | Transpositions |
-|:--------|:-----------------------|:------|:-------|:---------------|
-| 4.1     | `1 1 3 1 1 1 3 1`      | 8     | 4      | 6              | 
-| 4.2     | `1 3 1 1 1 3 1 1`      |       |        |                | 
-| 4.3     | `3 1 1 1 3 1 1 1`      |       |        |                |
-| 4.4     | `1 1 1 3 1 1 1 3`      |       |        |                |
+Contains semitones and minor thirds. 8 Notes, 4 Shifts, 6 Transpositions.
+| Id | Intervals in Semitones | Shift |
+|:--------|:-----------------------|:---------------|
+| 4.1     | `1 1 3 1 1 1 3 1`      | Root position              | 
+| 4.2     | `1 3 1 1 1 3 1 1`      | First shift (left)               | 
+| 4.3     | `3 1 1 1 3 1 1 1`      | Second shift (left)               |
+| 4.4     | `1 1 1 3 1 1 1 3`      | Third shift (left)               |
 
 ### Mode 5
-Contains semitones and major thirds
-| Id | Intervals in Semitones | Notes | Shifts | Transpositions |
-|:--------|:-----------------------|:------|:-------|:---------------|
-| 5.1     | `1 4 1 1 4 1`          | 6     | 3      | 6              | 
-| 5.2     | `4 1 1 4 1 1`          |       |        |                | 
-| 5.3     | `1 1 4 1 1 4`          |       |        |                | 
+Contains semitones and major thirds. 6 Notes, 3 Shifts, 6 Transpositions.
+| Id | Intervals in Semitones | Shifts |
+|:--------|:-----------------------|:---------------|
+| 5.1     | `1 4 1 1 4 1`          | Root position              | 
+| 5.2     | `4 1 1 4 1 1`          | First shift (left)               | 
+| 5.3     | `1 1 4 1 1 4`          | Second shift (left)               | 
 
 ### Mode 6
  Contains tones and semitones
