@@ -18,19 +18,19 @@ Whole-tone scale. 6 Notes, 1 Shift, 2 Transpositions.
 | 1.1     | `2 2 2 2 2 2`          | Root (unique) position |
 
 ### Mode 2
-Octatonic, diminished, whole-half, or half-whole scale
-| Id | Intervals in Semitones | Notes | Shifts | Transpositions |
-|:--------|:-----------------------|:------|:-------|:---------------|
-| Identificator     | `1 2 1 2 1 2 1 2`      | 8     | 2      | 3              |  
-| 2.2     | `2 1 2 1 2 1 2 1`      |       |        |                |
+Octatonic, diminished, whole-half, or half-whole scale. 8 Notes, 2 Shifts, 3 Transpositions.
+| Id | Intervals in Semitones | Shift |
+|:--------|:-----------------------|:---------------|
+| 2.1     | `1 2 1 2 1 2 1 2`      | Root position  |  
+| 2.2     | `2 1 2 1 2 1 2 1`      | First shift (left)    |
 
 ### Mode 3
-Contains tones and semitones
-| Id | Intervals in Semitones | Notes | Shifts | Transpositions |
-|:--------|:-----------------------|:------|:-------|:---------------|
-| 3.1     | `2 1 1 2 1 1 2 1 1`    | 9     | 3      | 4              | 
-| 3.2     | `1 1 2 1 1 2 1 1 2`    |       |        |                |
-| 3.3     | `1 2 1 1 2 1 1 2 1`    |       |        |                | 
+Contains tones and semitones. 9 Notes, 3 Shifts, 4 Transpositions.
+| Id | Intervals in Semitones | Shift |
+|:--------|:-----------------------||:---------------|
+| 3.1     | `2 1 1 2 1 1 2 1 1`    | Root position              | 
+| 3.2     | `1 1 2 1 1 2 1 1 2`    | First shift (left)               |
+| 3.3     | `1 2 1 1 2 1 1 2 1`    | Second shift (left)               | 
 
 ### Mode 4
 Contains semitones and minor thirds
