@@ -50,23 +50,23 @@ Contains semitones and major thirds. 6 Notes, 3 Shifts, 6 Transpositions.
 | 5.3     | `1 1 4 1 1 4`          | Second shift (left)               | 
 
 ### Mode 6
- Contains tones and semitones
-| Id | Intervals in Semitones | Notes | Shifts | Transpositions | 
-|:--------|:-----------------------|:------|:-------|:---------------|
-| 6.1     | `2 2 1 1 2 2 1 1`      | 8     | 4      | 6              |
-| 6.2     | `2 1 1 2 2 1 1 2`      |       |        |                |
-| 6.3     | `1 1 2 2 1 1 2 2`      |       |        |                |
-| 6.4     | `1 2 2 1 1 2 2 1`      |       |        |                |
+ Contains tones and semitones. 8 notes, 4 Shifts, 6 Transpositions.
+| Id | Intervals in Semitones | Shift  | 
+|:--------|:-----------------------|:--------------------|
+| 6.1     | `2 2 1 1 2 2 1 1`      | Root position       |
+| 6.2     | `2 1 1 2 2 1 1 2`      | First shift (left)  |
+| 6.3     | `1 1 2 2 1 1 2 2`      | Second shift (left) |
+| 6.4     | `1 2 2 1 1 2 2 1`      | Third shift (left)  |
 
 ### Mode 7
-Contains semitones and tones. Most complex pattern
-| Id | Intervals in Semitones | Notes | Shifts | Transpositions |
-|:--------|:-----------------------|:------|:-------|:---------------|
-| 7.1     | `1 1 1 2 1 1 1 1 2 1`  | 10    | 5      | 6              |
-| 7.2     | `1 1 2 1 1 1 1 2 1 1`  |       |        |                |
-| 7.3     | `1 2 1 1 1 1 2 1 1 1`  |       |        |                |
-| 7.4     | `2 1 1 1 1 2 1 1 1 1`  |       |        |                |
-| 7.5     | `1 1 1 1 2 1 1 1 1 2`  |       |        |                |
+Contains semitones and tones. Most complex pattern. 10 Notes, 5 Shifts, 6 Transpositions.
+| Id | Intervals in Semitones | Shift |
+|:--------|:-----------------------|:--------------------|
+| 7.1     | `1 1 1 2 1 1 1 1 2 1`  | Root position       |
+| 7.2     | `1 1 2 1 1 1 1 2 1 1`  | First shift (left)  |
+| 7.3     | `1 2 1 1 1 1 2 1 1 1`  | Second shift (left) |
+| 7.4     | `2 1 1 1 1 2 1 1 1 1`  | Third shift (left)  |
+| 7.5     | `1 1 1 1 2 1 1 1 1 2`  | Fourth shift (left) |
 
 Legend:
 - Id: Identifier for each unique shift or rotation within a mode
