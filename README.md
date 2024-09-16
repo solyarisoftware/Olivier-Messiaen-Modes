@@ -11,10 +11,11 @@ enabling the Olivier Messiaen's Modes of limited transposition in [REAPER](https
 Certainly, I'll update the table as requested, splitting the "Intervals in Semitones (Grouped)" column into two separate columns: "Shft Id" and "Intervals in Semitones". Here's the updated table:
 
 ### Mode 1
-Whole-tone scale
-| Id | Intervals in Semitones | Notes | Shifts | Transpositions |
-|:--------|:-----------------------|:------|:-------|:---------------|
-| 1.1     | `2 2 2 2 2 2`          | 6     | 1      | 2              |
+Whole-tone scale. 6 Notes, 1 Shift, 2 Transpositions.
+
+| Id | Intervals in Semitones | Shift |
+|:--------|:-----------------------|---------------|
+| 1.1     | `2 2 2 2 2 2`          | Root (unique) position |
 
 ### Mode 2
 Octatonic, diminished, whole-half, or half-whole scale
