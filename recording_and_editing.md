@@ -2,7 +2,7 @@
 
 ## Play & Recording 
 
-You do need to have ix_scale format corresponding to the .reascale. Please note these formats are different. I already created all ix_scales fro Messian's modes. these alre contained in the ix_scales in this repo.
+You do need to have ix_scale format corresponding to the .reascale. Please note these formats are different. I already created all ix_scales fro Messian's modes. these alre contained in the [ix_scales](ix_scales/) in this repo.
 
 Here the steps:
 
@@ -17,4 +17,5 @@ You can edit a recorded items forcing to snap notes in the desired mode, just us
 
 - References  
   - https://forum.cockos.com/showthread.php?t=294376
+  - https://forum.cockos.com/showthread.php?p=2808897#post2808897
   - https://www.youtube.com/watch?v=dRN5NToxBlw&t=19s 
