@@ -12,13 +12,13 @@ Olivier Messiaen's Modes of Limited Transposition are a set of unique musical sc
 
 Each mode consists of a specific sequence of intervals measured in semitones. The modes vary in complexity, containing anywhere from 6 to 10 distinct pitches. 
 
-- Rotation  
+- *Rotation*  
   A key feature of these modes is their ability to be "shifted" or rotated, creating new interval patterns while maintaining the essential character of the mode. The number of unique shifts within each mode varies, ranging from 1 to 5.
 
-- Transposition   
+- *Transposition*   
   in these modes refers to moving the entire scale to start on a different pitch. Due to their symmetrical nature, each mode has a limited number of transpositions (ranging from 2 to 6) before the pattern of intervals repeats, hence the name "Modes of Limited Transposition".
 
-- Truncation  
+- *Truncation*  
   is a technique of creating new modes by systematically removing notes from an existing mode while preserving its symmetry and limited transposition properties. Modes 3 and 7 are not truncated modes themselves, but serve as parent modes for others:
 
   - Mode 7 contains Modes 1, 2, 4, 5, and 6
@@ -29,24 +29,34 @@ Each mode consists of a specific sequence of intervals measured in semitones. Th
   This hierarchical relationship demonstrates how truncation can generate simpler modes from more complex ones while maintaining the characteristic properties of Messiaen's system.
 
 
-In the following sections, each mode is presented with its unique identifier (Id), the sequence of intervals in semitones, and the Rotation or rotation relative to the root position. This systematic approach allows for a comprehensive understanding of Messiaen's innovative scalar system, which has had a profound impact on 20th and 21st-century music.
+In the following sections, each mode is presented with its unique identifier (Id), the sequence of intervals in semitones, and the shift or rotation relative to the root position.
+
 
 ### Mode 1
-Whole-tone scale. 6 Notes, 1 Rotation, 2 Transpositions.
+Whole-tone scale. 6 Notes, 1 Rotation, 2 Transpositions.  
+
+The whole-tone scale is used to create a sense of ambiguity, dreaminess, and suspension of traditional tonality. 
+It evokes a floating, ethereal atmosphere, often associated with the mystical or otherworldly. In Messiaen's work, it can represent transcendence, timelessness, or the dissolution of earthly constraints.
 
 | Id | Intervals in Semitones | Rotation |
 |:--------|:-----------------------|---------------|
 | 1.1     | `2 2 2 2 2 2`          | Root (unique) position |
 
 ### Mode 2
-Octatonic, diminished, whole-half, or half-whole scale. 8 Notes, 2 Rotations, 3 Transpositions.
+Octatonic, diminished, whole-half, or half-whole scale. 8 Notes, 2 Rotations, 3 Transpositions.  
+
+Versatile mode creating tension, dissonance, and unease, but also capable of expressing divine love and joy. Evokes feelings of emptiness, desolation, or the supernatural. Can create an atmosphere of mystery or foreboding. Often used to represent conflict, both spiritual and earthly. Its symmetrical structure allows for complex harmonic possibilities, contributing to its wide range of expressive potential.
+
 | Id | Intervals in Semitones | Rotation |
 |:--------|:-----------------------|:---------------|
 | 2.1     | `1 2 1 2 1 2 1 2`      | Root position  |  
 | 2.2     | `2 1 2 1 2 1 2 1`      | First Rotation (left)    |
 
 ### Mode 3
-Contains tones and semitones. 9 Notes, 3 Rotations, 4 Transpositions.
+Contains tones and semitones. 9 Notes, 3 Rotations, 4 Transpositions.  
+
+Primarily associated with joy, vibrancy, and exuberance. Evokes the sounds of nature, particularly birdsong, which was a significant influence on Messiaen. Creates an atmosphere of celebration, life, and renewal. Also linked to charm and voluptuousness in Messiaen's writings, suggesting a sensual or hedonistic quality. Can represent divine joy or ecstatic religious experiences.
+
 | Id | Intervals in Semitones | Rotation |
 |:--------|:-----------------------|:---------------------|
 | 3.1     | `2 1 1 2 1 1 2 1 1`    | Root position        | 
@@ -54,7 +64,10 @@ Contains tones and semitones. 9 Notes, 3 Rotations, 4 Transpositions.
 | 3.3     | `1 2 1 1 2 1 1 2 1`    | Second Rotation (left)  | 
 
 ### Mode 4
-Contains semitones and minor thirds. 8 Notes, 4 Rotations, 6 Transpositions.
+Contains semitones and minor thirds. 8 Notes, 4 Rotations, 6 Transpositions.  
+
+Creates a sense of majesty, power, and grandeur. Evokes feelings of awe, reverence, or the sublime. Often used to represent divine authority or cosmic forces. Can create an atmosphere of expansiveness or infinity, suitable for depicting vast celestial spaces or profound spiritual concepts. Its intervals can suggest both stability and tension, allowing for complex emotional expressions.
+
 | Id | Intervals in Semitones | Rotation |
 |:--------|:-----------------------|:---------------|
 | 4.1     | `1 1 3 1 1 1 3 1`      | Root position              | 
@@ -63,7 +76,10 @@ Contains semitones and minor thirds. 8 Notes, 4 Rotations, 6 Transpositions.
 | 4.4     | `1 1 1 3 1 1 1 3`      | Third Rotation (left)               |
 
 ### Mode 5
-Contains semitones and major thirds. 6 Notes, 3 Rotations, 6 Transpositions.
+Contains semitones and major thirds. 6 Notes, 3 Rotations, 6 Transpositions.  
+
+Typically used to evoke brightness, radiance, and brilliance. Creates an atmosphere of light, illumination, or divine presence. Often associated with celestial or heavenly imagery. Can represent enlightenment, revelation, or spiritual awakening. Its structure allows for shimmering, colorful harmonies that can evoke a sense of wonder or transcendence.
+
 | Id | Intervals in Semitones | Rotations |
 |:--------|:-----------------------|:---------------|
 | 5.1     | `1 4 1 1 4 1`          | Root position              | 
@@ -71,7 +87,10 @@ Contains semitones and major thirds. 6 Notes, 3 Rotations, 6 Transpositions.
 | 5.3     | `1 1 4 1 1 4`          | Second Rotation (left)               | 
 
 ### Mode 6
- Contains tones and semitones. 8 notes, 4 Rotations, 6 Transpositions.
+Contains tones and semitones. 8 notes, 4 Rotations, 6 Transpositions.  
+
+Associated with complex emotional states. Can create serenity and tranquility, but also used to express love and tenderness. Evokes a contemplative atmosphere, suitable for moments of deep reflection or prayer. Its harmonic possibilities allow for both gentle, soothing passages and more intense expressions of devotion or spiritual longing. Often used in slower, more introspective movements.
+ 
 | Id | Intervals in Semitones | Rotation  | 
 |:--------|:-----------------------|:--------------------|
 | 6.1     | `2 2 1 1 2 2 1 1`      | Root position       |
@@ -80,7 +99,9 @@ Contains semitones and major thirds. 6 Notes, 3 Rotations, 6 Transpositions.
 | 6.4     | `1 2 2 1 1 2 2 1`      | Third Rotation (left)  |
 
 ### Mode 7
-Contains semitones and tones. Most complex pattern. 10 Notes, 5 Rotations, 6 Transpositions.
+Contains semitones and tones. Most complex pattern. 10 Notes, 5 Rotations, 6 Transpositions.  
+Creates intensity and drama, often associated with a combination of grief and joy, or what Messiaen called "mystical love". Evokes struggle, passion, or transformation. Can create an atmosphere of spiritual crisis or ecstasy. Its complex structure allows for highly expressive harmonies, capable of representing the turbulent emotions of religious experience or the mystery of divine love. Often used in climactic or pivotal moments in Messiaen's works.
+
 | Id | Intervals in Semitones | Rotation |
 |:--------|:-----------------------|:--------------------|
 | 7.1     | `1 1 1 2 1 1 1 1 2 1`  | Root position       |
@@ -94,10 +115,10 @@ To understand how I created the .reascale file, see [reascale_format.md](reascal
 
 
 ## To Do
+- In [recording and editing](recording_and_editing.md), I explain in detail how to use snap to key when recording and editing a MIDI item.
 
 - In [chords in modes](chords_in_modes.md), I listed which chords are possible for each mode, using the Lokasenna Theory Helper REAPER plugin. A possible future task is to add these (and other potential) chords to the .reascale file.
 
-- In [recording and editing](recording_and_editing.md), I explain in detail how to use snap to key when recording and editing a MIDI item.
 
 ## References
 
