@@ -46,22 +46,32 @@
 
 
 ## Understanding Interval Notation in `.reascale` Files
-In the REAPER `.reascale` format, the number values correspond to the intervals between the notes of a scale. 
-These intervals represent the distance between notes in semitones, providing a flexible way to define scales. 
-Each note in a scale can be mapped to a number that represents its position relative to the root note:
-```
-No-note = 0
-C = 1
-D = 2
-E = 3
-F = 4
-G = 5
-A = 6
-B = 7
-```
-A non-zero number (such as 1, 2, 3) represents an active scale step, while "0" indicates a skipped note. These numbers define the structure of the scale in REAPER.
 
-Enharmonic equivalents (e.g., sharps vs. flats) may use different interval notations but result in the same pitch classes. For example:
+The REAPER `.reascale` format uses a numeric system to represent scale structures. This system is based on intervals and scale degrees, providing a flexible method for defining various scales.
+
+### Basic Principles:
+
+1. Each number in the `.reascale` sequence represents a note's position within the scale.
+2. The sequence always contains 12 digits, corresponding to the 12 semitones in an octave.
+3. Non-zero numbers (1-7) indicate active scale steps.
+4. Zero (0) represents a skipped note (not part of the scale).
+
+### Scale Degree Representation:
+
+```
+0 = No note (skipped)
+1 = Root/Tonic (e.g., C in C major)
+2 = Second (e.g., D in C major)
+3 = Third (e.g., E in C major)
+4 = Fourth (e.g., F in C major)
+5 = Fifth (e.g., G in C major)
+6 = Sixth (e.g., A in C major)
+7 = Seventh (e.g., B in C major)
+```
+
+### Enharmonic Equivalents:
+
+Different notations (sharps vs. flats) can result in different `.reascale` sequences for enharmonically equivalent scales. For example:
 
 - Whole Tone Scale, Notated with Sharps (C, D, E, F♯, G♯, A♯):
   ```
@@ -103,30 +113,56 @@ Enharmonic equivalents (e.g., sharps vs. flats) may use different interval notat
   0 "Chromatic"         122334556677
   ```
 
+### Key Points:
+
+- The `.reascale` format always uses 12 digits, regardless of the scale's note count.
+- The sequence starts from C (as 1) and progresses chromatically.
+- Enharmonic equivalents may have different `.reascale` representations but produce the same pitches.
+- This system allows for precise definition of various scale structures, including non-standard and microtonal scales.
+
+
 ## REAPER Reascale Implementation of Olivier Messiaen's Modes of Limited Transposition
 
-I applied the notation coding above explained for each mode (an his rotations). 
-By example, consider the mode 2 in first rotation (`2.1`) also called "octatonic scale):
-The first shift (rotation) is a sequence of step interval, whole tone intervals: 
-```
-2.1: 1 2 1 2 1 2 1 2
-```
+To implement Messiaen's modes in REAPER's .reascale format, I followed a systematic process for each mode and its rotations. 
+Let's use Mode 2 (octatonic scale) in its first rotation (2.1) as an example to illustrate the workflow:
 
-So to code this scale in .reascale format I start from this grid where I list all 12 notes in the octave, using sharp notation (an arbitrary decision):
- 
-```
-| C  | C# | D  | D# | E  | F  | F# | G  | G# | A  | A# | B  |
-|    |    |    |    |    |    |    |    |    |    |    |    |
-```
-Afterward I create the .reascale sequence just filling the note number:
-```
-| C  | C# | D  | D# | E  | F  | F# | G  | G# | A  | A# | B  |
-| x  |  x |    | x  |  x |    |  x | x  |    | x  | x  |    |
-| 1  |  1 | 0  | 2  |  3 |  0 |  4 | 5  |  0 | 6  | 6  | 0  |
-```
-the final sequence that identify the scale is in .reascale format:
-```
-110230450660
-```
+1. Identify the interval sequence:
+   For Mode 2.1, the sequence is: `1 2 1 2 1 2 1 2`
+   This represents alternating semitone and whole tone intervals.
+
+2. Create a 12-note octave grid:
+   Use a grid representing all 12 chromatic pitches in an octave, using sharp notation:
+
+   ```
+   | C  | C# | D  | D# | E  | F  | F# | G  | G# | A  | A# | B  |
+   |    |    |    |    |    |    |    |    |    |    |    |    |
+   ```
+
+3. Map the mode to the grid:
+   Starting from C, apply the interval sequence to determine which notes are part of the mode:
+
+   ```
+   | C  | C# | D  | D# | E  | F  | F# | G  | G# | A  | A# | B  |
+   | x  | x  |    | x  | x  |    | x  | x  |    | x  | x  |    |
+   ```
+
+4. Assign note numbers:
+   Number the notes in the mode sequentially, starting from 1. Use 0 for notes not in the mode:
+
+   ```
+   | C  | C# | D  | D# | E  | F  | F# | G  | G# | A  | A# | B  |
+   | 1  | 2  | 0  | 3  | 4  | 0  | 5  | 6  | 0  | 7  | 8  | 0  |
+   ```
+
+5. Create the .reascale sequence:
+   Combine the numbers into a single 12-digit sequence:
+
+   ```
+   120340560780
+   ```
+
+This final sequence is the .reascale format representation of Mode 2.1. It can be used in REAPER to define the scale.
+
+Repeat this process for each mode and its rotations, always starting on C and following the specific interval sequence for each case. This method ensures a consistent and accurate representation of Messiaen's modes in REAPER's scale format.
 
 ---
