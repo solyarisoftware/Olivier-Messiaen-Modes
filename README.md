@@ -8,8 +8,6 @@ enabling the Olivier Messiaen's Modes of limited transposition in [REAPER](https
 
 ## Olivier Messiaen's Modes of Limited Transposition
 
-Certainly, I'll update the table as requested, splitting the "Intervals in Semitones (Grouped)" column into two separate columns: "Shft Id" and "Intervals in Semitones". Here's the updated table:
-
 ### Mode 1
 Whole-tone scale. 6 Notes, 1 Shift, 2 Transpositions.
 
@@ -75,11 +73,14 @@ Legend:
 - Shifts: Number of unique rotations within each mode
 - Transpositions: Number of distinct starting pitches before the pattern repeats
 
-To understand how I create the .reascale file, see [reascale_format.md](reascale_format.md).
+To understand how I created the .reascale file, see [reascale_format.md](reascale_format.md).
 
-## Todo 
-In the dpocument [chords_in_modes.md](chords_in_modes.md) I reported for each mode, which chord are popssible, using Lokasenna Theory Helper REAPER plugin. 
-A possible works to do in futire is adding this (and other possible) chords in the .reascale file.
+
+## To Do
+
+- In [chords in modes](chords_in_modes.md), I listed which chords are possible for each mode, using the Lokasenna Theory Helper REAPER plugin. A possible future task is to add these (and other potential) chords to the .reascale file.
+
+- In [recording and editing](recording_and_editing.md), I explain in detail how to use snap to key when recording and editing a MIDI item.
 
 ## References
 
@@ -87,6 +88,13 @@ A possible works to do in futire is adding this (and other possible) chords in t
 - [wikipedia page](https://en.wikipedia.org/wiki/Mode_of_limited_transposition)
 - [Rick Beato's introductory youtube video](https://www.youtube.com/watch?v=nCXxV7eDEPc)
 - [Related Reaper Forum Thread](https://forum.cockos.com/showthread.php?p=2807156#post2807156)
+
+## Changelog
+- version 0.1 2024-09-06
+  first attempt, no shifts
+- version 0.5 2024-09-15
+  scale names updated, all shifts (rotations) inserted for all modes
+
 
 ## 🙏 Status / How to contribute
 
