@@ -18,65 +18,76 @@ Each mode consists of a specific sequence of intervals measured in semitones. Th
 - Transposition   
   in these modes refers to moving the entire scale to start on a different pitch. Due to their symmetrical nature, each mode has a limited number of transpositions (ranging from 2 to 6) before the pattern of intervals repeats, hence the name "Modes of Limited Transposition".
 
-In the following sections, each mode is presented with its unique identifier (Id), the sequence of intervals in semitones, and the shift or rotation relative to the root position. This systematic approach allows for a comprehensive understanding of Messiaen's innovative scalar system, which has had a profound impact on 20th and 21st-century music.
+- Truncation  
+  is a technique of creating new modes by systematically removing notes from an existing mode while preserving its symmetry and limited transposition properties. Modes 3 and 7 are not truncated modes themselves, but serve as parent modes for others:
+
+  - Mode 7 contains Modes 1, 2, 4, 5, and 6
+  - Mode 3 contains Mode 1
+  - Mode 6 contains Modes 1 and 5
+  - Mode 4 contains Mode 5
+
+  This hierarchical relationship demonstrates how truncation can generate simpler modes from more complex ones while maintaining the characteristic properties of Messiaen's system.
+
+
+In the following sections, each mode is presented with its unique identifier (Id), the sequence of intervals in semitones, and the Rotation or rotation relative to the root position. This systematic approach allows for a comprehensive understanding of Messiaen's innovative scalar system, which has had a profound impact on 20th and 21st-century music.
 
 ### Mode 1
-Whole-tone scale. 6 Notes, 1 Shift, 2 Transpositions.
+Whole-tone scale. 6 Notes, 1 Rotation, 2 Transpositions.
 
-| Id | Intervals in Semitones | Shift |
+| Id | Intervals in Semitones | Rotation |
 |:--------|:-----------------------|---------------|
 | 1.1     | `2 2 2 2 2 2`          | Root (unique) position |
 
 ### Mode 2
-Octatonic, diminished, whole-half, or half-whole scale. 8 Notes, 2 Shifts, 3 Transpositions.
-| Id | Intervals in Semitones | Shift |
+Octatonic, diminished, whole-half, or half-whole scale. 8 Notes, 2 Rotations, 3 Transpositions.
+| Id | Intervals in Semitones | Rotation |
 |:--------|:-----------------------|:---------------|
 | 2.1     | `1 2 1 2 1 2 1 2`      | Root position  |  
-| 2.2     | `2 1 2 1 2 1 2 1`      | First shift (left)    |
+| 2.2     | `2 1 2 1 2 1 2 1`      | First Rotation (left)    |
 
 ### Mode 3
-Contains tones and semitones. 9 Notes, 3 Shifts, 4 Transpositions.
-| Id | Intervals in Semitones | Shift |
+Contains tones and semitones. 9 Notes, 3 Rotations, 4 Transpositions.
+| Id | Intervals in Semitones | Rotation |
 |:--------|:-----------------------|:---------------------|
 | 3.1     | `2 1 1 2 1 1 2 1 1`    | Root position        | 
-| 3.2     | `1 1 2 1 1 2 1 1 2`    | First shift (left)   |
-| 3.3     | `1 2 1 1 2 1 1 2 1`    | Second shift (left)  | 
+| 3.2     | `1 1 2 1 1 2 1 1 2`    | First Rotation (left)   |
+| 3.3     | `1 2 1 1 2 1 1 2 1`    | Second Rotation (left)  | 
 
 ### Mode 4
-Contains semitones and minor thirds. 8 Notes, 4 Shifts, 6 Transpositions.
-| Id | Intervals in Semitones | Shift |
+Contains semitones and minor thirds. 8 Notes, 4 Rotations, 6 Transpositions.
+| Id | Intervals in Semitones | Rotation |
 |:--------|:-----------------------|:---------------|
 | 4.1     | `1 1 3 1 1 1 3 1`      | Root position              | 
-| 4.2     | `1 3 1 1 1 3 1 1`      | First shift (left)               | 
-| 4.3     | `3 1 1 1 3 1 1 1`      | Second shift (left)               |
-| 4.4     | `1 1 1 3 1 1 1 3`      | Third shift (left)               |
+| 4.2     | `1 3 1 1 1 3 1 1`      | First Rotation (left)               | 
+| 4.3     | `3 1 1 1 3 1 1 1`      | Second Rotation (left)               |
+| 4.4     | `1 1 1 3 1 1 1 3`      | Third Rotation (left)               |
 
 ### Mode 5
-Contains semitones and major thirds. 6 Notes, 3 Shifts, 6 Transpositions.
-| Id | Intervals in Semitones | Shifts |
+Contains semitones and major thirds. 6 Notes, 3 Rotations, 6 Transpositions.
+| Id | Intervals in Semitones | Rotations |
 |:--------|:-----------------------|:---------------|
 | 5.1     | `1 4 1 1 4 1`          | Root position              | 
-| 5.2     | `4 1 1 4 1 1`          | First shift (left)               | 
-| 5.3     | `1 1 4 1 1 4`          | Second shift (left)               | 
+| 5.2     | `4 1 1 4 1 1`          | First Rotation (left)               | 
+| 5.3     | `1 1 4 1 1 4`          | Second Rotation (left)               | 
 
 ### Mode 6
- Contains tones and semitones. 8 notes, 4 Shifts, 6 Transpositions.
-| Id | Intervals in Semitones | Shift  | 
+ Contains tones and semitones. 8 notes, 4 Rotations, 6 Transpositions.
+| Id | Intervals in Semitones | Rotation  | 
 |:--------|:-----------------------|:--------------------|
 | 6.1     | `2 2 1 1 2 2 1 1`      | Root position       |
-| 6.2     | `2 1 1 2 2 1 1 2`      | First shift (left)  |
-| 6.3     | `1 1 2 2 1 1 2 2`      | Second shift (left) |
-| 6.4     | `1 2 2 1 1 2 2 1`      | Third shift (left)  |
+| 6.2     | `2 1 1 2 2 1 1 2`      | First Rotation (left)  |
+| 6.3     | `1 1 2 2 1 1 2 2`      | Second Rotation (left) |
+| 6.4     | `1 2 2 1 1 2 2 1`      | Third Rotation (left)  |
 
 ### Mode 7
-Contains semitones and tones. Most complex pattern. 10 Notes, 5 Shifts, 6 Transpositions.
-| Id | Intervals in Semitones | Shift |
+Contains semitones and tones. Most complex pattern. 10 Notes, 5 Rotations, 6 Transpositions.
+| Id | Intervals in Semitones | Rotation |
 |:--------|:-----------------------|:--------------------|
 | 7.1     | `1 1 1 2 1 1 1 1 2 1`  | Root position       |
-| 7.2     | `1 1 2 1 1 1 1 2 1 1`  | First shift (left)  |
-| 7.3     | `1 2 1 1 1 1 2 1 1 1`  | Second shift (left) |
-| 7.4     | `2 1 1 1 1 2 1 1 1 1`  | Third shift (left)  |
-| 7.5     | `1 1 1 1 2 1 1 1 1 2`  | Fourth shift (left) |
+| 7.2     | `1 1 2 1 1 1 1 2 1 1`  | First Rotation (left)  |
+| 7.3     | `1 2 1 1 1 1 2 1 1 1`  | Second Rotation (left) |
+| 7.4     | `2 1 1 1 1 2 1 1 1 1`  | Third Rotation (left)  |
+| 7.5     | `1 1 1 1 2 1 1 1 1 2`  | Fourth Rotation (left) |
 
 
 To understand how I created the .reascale file, see [reascale_format.md](reascale_format.md).
