@@ -8,6 +8,18 @@ enabling the Olivier Messiaen's Modes of limited transposition in [REAPER](https
 
 ## Olivier Messiaen's Modes of Limited Transposition
 
+Olivier Messiaen's Modes of Limited Transposition are a set of unique musical scales that form an integral part of his compositional language. These modes are characterized by their symmetrical structures, which result in a limited number of possible transpositions before the original pattern of intervals repeats.
+
+Each mode consists of a specific sequence of intervals measured in semitones. The modes vary in complexity, containing anywhere from 6 to 10 distinct pitches. 
+
+- Rotation
+  A key feature of these modes is their ability to be "shifted" or rotated, creating new interval patterns while maintaining the essential character of the mode. The number of unique shifts within each mode varies, ranging from 1 to 5.
+
+- Transposition 
+  in these modes refers to moving the entire scale to start on a different pitch. Due to their symmetrical nature, each mode has a limited number of transpositions (ranging from 2 to 6) before the pattern of intervals repeats, hence the name "Modes of Limited Transposition".
+
+In the following sections, each mode is presented with its unique identifier (Id), the sequence of intervals in semitones, and the shift or rotation relative to the root position. This systematic approach allows for a comprehensive understanding of Messiaen's innovative scalar system, which has had a profound impact on 20th and 21st-century music.
+
 ### Mode 1
 Whole-tone scale. 6 Notes, 1 Shift, 2 Transpositions.
 
@@ -66,12 +78,6 @@ Contains semitones and tones. Most complex pattern. 10 Notes, 5 Shifts, 6 Transp
 | 7.4     | `2 1 1 1 1 2 1 1 1 1`  | Third shift (left)  |
 | 7.5     | `1 1 1 1 2 1 1 1 1 2`  | Fourth shift (left) |
 
-Legend:
-- Id: Identifier for each unique shift or rotation within a mode
-- Intervals in Semitones: Sequence of intervals between consecutive notes in semitones
-- Notes: Total number of distinct pitches in the mode
-- Shifts: Number of unique rotations within each mode
-- Transpositions: Number of distinct starting pitches before the pattern repeats
 
 To understand how I created the .reascale file, see [reascale_format.md](reascale_format.md).
 
