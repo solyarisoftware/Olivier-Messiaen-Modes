@@ -1,32 +1,46 @@
 # Olivier Messiaen Modes
 
-I created this repo to share my [Olivier-Messiaen-Modes.reascale](Olivier-Messiaen-Modes.reascale)
-enabling the Olivier Messiaen's Modes of limited transposition in [REAPER](https://www.reaper.fm/) DAW.
+This repository contains:
+
+- The [Olivier-Messiaen-Modes.reascale](Olivier-Messiaen-Modes.reascale) REAPER .reascale file I created, which enables Olivier Messiaen's Modes of Limited Transposition in the [REAPER](https://www.reaper.fm/) DAW.
+
+- Some general [recording and editing](recording_and_editing.md) tips and tricks, including how to enable key snapping (to a selected scale, e.g., a Messiaen mode) when playing or editing MIDI notes.
+
+- **EXPERIMENTAL/TODO**: How to enable [chords in modes](chords_in_modes.md) in a .reascale file.
 
 ![](img/screenshot.png)
 
 
-## Olivier Messiaen's Modes of Limited Transposition
+## Olivier Messiaen's 7 Modes of Limited Transposition
 
-Olivier Messiaen's Modes of Limited Transposition are a set of unique musical scales that form an integral part of his compositional language. These modes are characterized by their symmetrical structures, which result in a limited number of possible transpositions before the original pattern of intervals repeats.
+Olivier Messiaen’s "modes of limited transposition" are a set of seven symmetrical musical scales, characterized by their repetition of interval groups and their limited number of transpositions due to internal symmetry. 
+Each mode consists of several symmetrical groups, where the last note of one group overlaps with the first note of the next, and after a certain number of chromatic transpositions, the mode’s notes repeat. 
+For example, the whole-tone scale (Mode 1) allows only two transpositions, while Mode 7 allows six. Messiaen identified seven modes in his book *The Technique of My Musical Language*, 
+although he only used four in practice: Modes 2, 3, 4, and 6. 
+These modes are constructed using the tempered semitone as the smallest interval and have been expanded upon by later theorists, who have found additional modes fitting Messiaen's criteria. 
+Their unique structure has had a significant influence on 20th-century music and remains an important area of study.
 
-Each mode consists of a specific sequence of intervals measured in semitones. The modes vary in complexity, containing anywhere from 6 to 10 distinct pitches. 
 
-- *Rotation*  
-  A key feature of these modes is their ability to be "shifted" or rotated, creating new interval patterns while maintaining the essential character of the mode. The number of unique shifts within each mode varies, ranging from 1 to 5.
+### Naming Conventions
 
-- *Transposition*   
-  in these modes refers to moving the entire scale to start on a different pitch. Due to their symmetrical nature, each mode has a limited number of transpositions (ranging from 2 to 6) before the pattern of intervals repeats, hence the name "Modes of Limited Transposition".
+**Rotation**  
+A key feature of each mode is its ability to be "shifted" or rotated, creating new interval patterns while maintaining the essential character of the mode. The number of unique shifts within each mode varies, ranging from 1 to 5.  
+For example, consider Mode 2:  
+- In this mode, the *root position* has the following sequence of intervals (in semitones): 1 2 1 2 1 2 1 2. I refer to this as *2.1*.  
+- For the same mode, when rotating the sequence of intervals to the left, you get the *first rotation*: 2 1 2 1 2 1 2 1, which I also call *2.1*.
 
-- *Truncation*  
-  is a technique of creating new modes by systematically removing notes from an existing mode while preserving its symmetry and limited transposition properties. Modes 3 and 7 are not truncated modes themselves, but serve as parent modes for others:
+**Transposition**  
+In these modes, transposition refers to moving the entire scale to start on a different pitch. Due to their symmetrical nature, each mode has a limited number of transpositions (ranging from 2 to 6) before the pattern of intervals repeats, hence the name "Modes of Limited Transposition."
 
-  - Mode 7 contains Modes 1, 2, 4, 5, and 6
-  - Mode 3 contains Mode 1
-  - Mode 6 contains Modes 1 and 5
-  - Mode 4 contains Mode 5
+**Truncation**  
+Truncation is a technique for creating new modes by systematically removing notes from an existing mode while preserving its symmetry and limited transposition properties. Modes 3 and 7 are not truncated modes themselves, but serve as parent modes for others:
 
-  This hierarchical relationship demonstrates how truncation can generate simpler modes from more complex ones while maintaining the characteristic properties of Messiaen's system.
+- Mode 7 contains Modes 1, 2, 4, 5, and 6  
+- Mode 3 contains Mode 1  
+- Mode 6 contains Modes 1 and 5  
+- Mode 4 contains Mode 5  
+
+This hierarchical relationship demonstrates how truncation can generate simpler modes from more complex ones while maintaining the characteristic properties of Messiaen's system.
 
 
 In the following sections, each mode is presented with its unique identifier (Id), the sequence of intervals in semitones, and the shift or rotation relative to the root position.
