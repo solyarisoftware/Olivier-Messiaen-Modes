@@ -1,12 +1,10 @@
 # Olivier Messiaen Modes
 
 This repository contains:
-
 - The [Olivier-Messiaen-Modes.reascale](Olivier-Messiaen-Modes.reascale) REAPER .reascale file I created, which enables Olivier Messiaen's Modes of Limited Transposition in the [REAPER](https://www.reaper.fm/) DAW.
-
 - Some general [recording and editing](recording_and_editing.md) tips and tricks, including how to enable key snapping (to a selected scale, e.g., a Messiaen mode) when playing or editing MIDI notes.
 
-- **EXPERIMENTAL/TODO**: How to enable [chords in modes](chords_in_modes.md) in a .reascale file.
+- How to enable [chords in modes](chords_in_modes.md) in a .reascale file (that's a work in progress / to be completed).
 
 ![](img/screenshot.png)
 
@@ -14,9 +12,9 @@ This repository contains:
 ## Olivier Messiaen's 7 Modes of Limited Transposition
 
 Olivier Messiaen’s "modes of limited transposition" are a set of seven symmetrical musical scales, characterized by their repetition of interval groups and their limited number of transpositions due to internal symmetry. 
-Each mode consists of several symmetrical groups, where the last note of one group overlaps with the first note of the next, and after a certain number of chromatic transpositions, the mode’s notes repeat. 
-For example, the whole-tone scale (Mode 1) allows only two transpositions, while Mode 7 allows six. Messiaen identified seven modes in his book *The Technique of My Musical Language*, 
-although he only used four in practice: Modes 2, 3, 4, and 6. 
+
+Each mode consists of several symmetrical groups, where the last note of one group overlaps with the first note of the next, and after a certain number of chromatic transpositions, the mode’s notes repeat. For example, the whole-tone scale (Mode 1) allows only two transpositions, while Mode 7 allows six. Messiaen identified seven modes in his book *The Technique of My Musical Language*,  although he only used four in practice: Modes 2, 3, 4, and 6. 
+
 These modes are constructed using the tempered semitone as the smallest interval and have been expanded upon by later theorists, who have found additional modes fitting Messiaen's criteria. 
 Their unique structure has had a significant influence on 20th-century music and remains an important area of study.
 
@@ -42,9 +40,7 @@ Truncation is a technique for creating new modes by systematically removing note
 
 This hierarchical relationship demonstrates how truncation can generate simpler modes from more complex ones while maintaining the characteristic properties of Messiaen's system.
 
-
 In the following sections, each mode is presented with its unique identifier (Id), the sequence of intervals in semitones, and the shift or rotation relative to the root position.
-
 
 ### Mode 1
 Whole-tone scale. 6 Notes, 1 Rotation, 2 Transpositions.  
@@ -124,29 +120,64 @@ Creates intensity and drama, often associated with a combination of grief and jo
 | 7.4     | `2 1 1 1 1 2 1 1 1 1`  | Third Rotation (left)  |
 | 7.5     | `1 1 1 1 2 1 1 1 1 2`  | Fourth Rotation (left) |
 
+### Olivier Messiaen's Modes Limited Transposition Quick Reference
 
-To understand how I created the .reascale file, see [reascale_format.md](reascale_format.md).
+| Mode | Id   | Intervals in Semitones  | Rotation                    |
+|:-----|:-----|:------------------------|:----------------------------|
+| 1    | 1.1  | `2 2 2 2 2 2`           | Root (unique) position       |
+| 2    | 2.1  | `1 2 1 2 1 2 1 2`       | Root position                |
+| 2    | 2.2  | `2 1 2 1 2 1 2 1`       | First Rotation (left)        |
+| 3    | 3.1  | `2 1 1 2 1 1 2 1 1`     | Root position                |
+| 3    | 3.2  | `1 1 2 1 1 2 1 1 2`     | First Rotation (left)        |
+| 3    | 3.3  | `1 2 1 1 2 1 1 2 1`     | Second Rotation (left)       |
+| 4    | 4.1  | `1 1 3 1 1 1 3 1`       | Root position                |
+| 4    | 4.2  | `1 3 1 1 1 3 1 1`       | First Rotation (left)        |
+| 4    | 4.3  | `3 1 1 1 3 1 1 1`       | Second Rotation (left)       |
+| 4    | 4.4  | `1 1 1 3 1 1 1 3`       | Third Rotation (left)        |
+| 5    | 5.1  | `1 4 1 1 4 1`           | Root position                |
+| 5    | 5.2  | `4 1 1 4 1 1`           | First Rotation (left)        |
+| 5    | 5.3  | `1 1 4 1 1 4`           | Second Rotation (left)       |
+| 6    | 6.1  | `2 2 1 1 2 2 1 1`       | Root position                |
+| 6    | 6.2  | `2 1 1 2 2 1 1 2`       | First Rotation (left)        |
+| 6    | 6.3  | `1 1 2 2 1 1 2 2`       | Second Rotation (left)       |
+| 6    | 6.4  | `1 2 2 1 1 2 2 1`       | Third Rotation (left)        |
+| 7    | 7.1  | `1 1 1 2 1 1 1 1 2 1`   | Root position                |
+| 7    | 7.2  | `1 1 2 1 1 1 1 2 1 1`   | First Rotation (left)        |
+| 7    | 7.3  | `1 2 1 1 1 1 2 1 1 1`   | Second Rotation (left)       |
+| 7    | 7.4  | `2 1 1 1 1 2 1 1 1 1`   | Third Rotation (left)        |
+| 7    | 7.5  | `1 1 1 1 2 1 1 1 1 2`   | Fourth Rotation (left)       |
 
 
-## To Do
-- In [recording and editing](recording_and_editing.md), I explain in detail how to use snap to key when recording and editing a MIDI item.
+> To understand how I created the .reascale file, see [reascale_format.md](reascale_format.md).
 
-- In [chords in modes](chords_in_modes.md), I listed which chords are possible for each mode, using the Lokasenna Theory Helper REAPER plugin. A possible future task is to add these (and other potential) chords to the .reascale file.
+
+## To do Tools
+- [Recording and editing](recording_and_editing.md)  
+  I explain in detail how to use snap to key when recording and editing a MIDI item.
+
+- [Chords in modes](chords_in_modes.md)  
+  I listed which chords are possible for each mode, using the *Lokasenna Theory Helper* REAPER plugin. 
+  A possible future task is to add these (and other potential) chords to the .reascale file.
 
 
 ## References
 
 - [The Technique of My Musical Language (translated in English)](https://monoskop.org/images/5/50/Messiaen_Olivier_The_Technique_of_My_Musical_Language.pdf)
 - [wikipedia page](https://en.wikipedia.org/wiki/Mode_of_limited_transposition)
-- [Rick Beato's introductory youtube video](https://www.youtube.com/watch?v=nCXxV7eDEPc)
 - [Related Reaper Forum Thread](https://forum.cockos.com/showthread.php?p=2807156#post2807156)
+- Rick Beato's introductory youtube video:  
+  [![Rick Beato's introductory youtube video](https://img.youtube.com/vi/nCXxV7eDEPc/0.jpg)](https://www.youtube.com/watch?v=nCXxV7eDEPc)
+
 
 ## Changelog
-- version 0.1 2024-09-06
-  first attempt, no shifts
-- version 0.5 2024-09-15
-  scale names updated, all shifts (rotations) inserted for all modes
 
+- 2024-09-06: 
+  - Version 0.1. First attempt, no shifts
+- 2024-09-15:
+  - Version 0.5. Scale names updated, all shifts (rotations) inserted for all modes
+- 2024-10-04: 
+  - updated recordng_and_editing doc explaining how to use `VST: ReaControlMIDI (Cockos)` to play & record snapping to selected mode.
+  - minor correction in the README.
 
 ## 🙏 Status / How to contribute
 
