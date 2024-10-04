@@ -171,13 +171,9 @@ Creates intensity and drama, often associated with a combination of grief and jo
 
 ## Changelog
 
-- 2024-09-06: 
-  - Version 0.1. First attempt, no shifts
-- 2024-09-15:
-  - Version 0.5. Scale names updated, all shifts (rotations) inserted for all modes
-- 2024-10-04: 
-  - updated recordng_and_editing doc explaining how to use `VST: ReaControlMIDI (Cockos)` to play & record snapping to selected mode.
-  - minor correction in the README.
+- 2024-09-06: Version 0.1. First attempt, no shifts
+- 2024-09-15: Version 0.5. Scale names updated, all shifts (rotations) inserted for all modes
+- 2024-10-04: Updated recordng_and_editing doc explaining how to use `VST: ReaControlMIDI (Cockos)` to play & record snapping to selected mode. Minor correction in the README.
 
 ## 🙏 Status / How to contribute
 
