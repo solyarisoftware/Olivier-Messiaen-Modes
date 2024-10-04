@@ -33,7 +33,12 @@ Here the steps:
 
 ## Editing
 
-You can edit a recorded items forcing to snap notes in the desired mode, just using the REAPER MIDI action: `Force selected notes in key signature`. See the great Kenny Gioia's youtube video explanation:
+You can edit notes in a recorded items, forcing to snap notes in the desired mode, just using the REAPER MIDI action: 
+```
+Force selected notes in key signature
+``` 
+
+See the great Kenny Gioia's youtube video explanation:
 
 [![Kenny Gioia's explanation](https://img.youtube.com/vi/dRN5NToxBlw/0.jpg)](https://www.youtube.com/watch?v=dRN5NToxBlw)
 
