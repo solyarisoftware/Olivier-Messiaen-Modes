@@ -36,3 +36,26 @@
 
 ## Comprehensive Four-Note Chord Classification
 
+| Chord Name | Full Name | Notes as Scale Degrees | Intervals from Root | Description |
+|------------|-----------|------------------------|---------------------|-------------|
+| Cmaj7 | Major Seventh | 1 3 5 7 | 0 4 7 11 | Bright, stable sound. Common in jazz and pop. |
+| C7 | Dominant Seventh | 1 3 5 ♭7 | 0 4 7 10 | Tense, bluesy sound. Wants to resolve. |
+| Cm7 | Minor Seventh | 1 ♭3 5 ♭7 | 0 3 7 10 | Softer, jazzier sound than minor triad. |
+| C°7 | Fully Diminished Seventh | 1 ♭3 ♭5 6 | 0 3 6 9 | Very unstable, symmetric structure. |
+| Cø7 | Half-Diminished Seventh | 1 ♭3 ♭5 ♭7 | 0 3 6 10 | Darker than minor seventh, common in jazz. |
+| C+7 | Augmented Seventh | 1 3 ♯5 ♭7 | 0 4 8 10 | Tense, exotic sound. Used in jazz and impressionist music. |
+| Cmaj7(♯5) | Major Seventh Sharp Five | 1 3 ♯5 7 | 0 4 8 11 | Bright but tense. Used in jazz and fusion. |
+| C6 | Major Sixth | 1 3 5 6 | 0 4 7 9 | Stable, sweet sound. Common in jazz and pop. |
+| Cm6 | Minor Sixth | 1 ♭3 5 6 | 0 3 7 9 | Darker than major sixth, common in jazz. |
+| C7sus4 | Dominant Seventh Sus4 | 1 4 5 ♭7 | 0 5 7 10 | Open, unresolved sound. Common in rock and pop. |
+| C9 | Dominant Ninth | 1 3 5 ♭7 9 | 0 4 7 10 14 | Colorful dominant sound, common in jazz. |
+| Cmaj9 | Major Ninth | 1 3 5 7 9 | 0 4 7 11 14 | Lush, complex sound. Popular in jazz and R&B. |
+| Cm9 | Minor Ninth | 1 ♭3 5 ♭7 9 | 0 3 7 10 14 | Rich, mellow sound. Common in jazz and soul. |
+| C7(♭9) | Dominant Seven Flat Nine | 1 3 5 ♭7 ♭9 | 0 4 7 10 13 | Very tense sound. Used in jazz and fusion. |
+| C7(♯9) | Dominant Seven Sharp Nine | 1 3 5 ♭7 ♯9 | 0 4 7 10 15 | Hendrix chord. Bluesy, tense sound. |
+| C7(♯11) | Dominant Seven Sharp Eleven | 1 3 5 ♭7 ♯11 | 0 4 7 10 18 | Lydian dominant sound. Used in jazz. |
+| Cmaj7(♯11) | Major Seven Sharp Eleven | 1 3 5 7 ♯11 | 0 4 7 11 18 | Lydian sound. Bright and modern. |
+| C7(♭5) | Dominant Seven Flat Five | 1 3 ♭5 ♭7 | 0 4 6 10 | Very tense, common in jazz as tritone substitute. |
+| Cmaj7(♭5) | Major Seven Flat Five | 1 3 ♭5 7 | 0 4 6 11 | Unusual, tense major seventh sound. |
+| Cadd9 | Add Nine | 1 3 5 9 | 0 4 7 14 | Brighter than major, common in pop and rock. |
+| Cmadd9 | Minor Add Nine | 1 ♭3 5 9 | 0 3 7 14 | Richer than minor, used in various genres. |
