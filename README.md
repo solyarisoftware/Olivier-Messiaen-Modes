@@ -185,6 +185,12 @@ You can also contact me via email (giorgio.robino@gmail.com).
 
 **IF YOU LIKE THE PROJECT, PLEASE ⭐️STAR THIS REPOSITORY TO SHOW YOUR SUPPORT!**
 
+## License
+
+[MIT](LICENSE) — Copyright (c) 2024 Giorgio Robino.
+
+Use it, change it, ship it; just keep the copyright notice. The `.reascale` file and the
+documents here are meant to be reused.
 
 [top](/#)
 
